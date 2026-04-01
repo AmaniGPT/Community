@@ -8,4 +8,4 @@ This is the community repo where you can:
 
 # Contact
 
-For business and media inquiries, please contact: **eric.mutta@gmail.com**
+For licensing and media inquiries, please contact: **eric.mutta@gmail.com**
