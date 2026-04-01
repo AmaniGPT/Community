@@ -1,0 +1,480 @@
+
+# Introduction
+
+For an overview of the `AmaniGPT` project, please refer to the [README](README.md) page.
+
+This guide will take you through the steps for training your own `AmaniGPT` model from scratch using the `OpenWebText`
+dataset.
+
+The [OpenWebText dataset](https://zenodo.org/records/3834942) is a collection of web pages extracted from URLs shared on
+Reddit. It is hosted on [Zenodo](https://zenodo.org/) and provides 40 GB of uncompressed text, which can be used to train
+simple Large Language Models (LLMs) similar to OpenAI's [GPT-2 model](https://en.wikipedia.org/wiki/GPT-2).
+
+> **FUN FACT:** "amani" is the Swahili word for "peace" :pray:
+
+# Prerequisites
+
+`AmaniGPT` is delivered as a `22 MB` self-contained binary executable. During preview, we will focus on Linux. In the
+future, we plan to provide native binaries for all major platforms, including a library version for use with mobile apps.
+
+We use and recommend `Debian 12` for all `AmaniGPT` demos, but you should be able to use a wide range of popular Linux
+distributions including Ubuntu, Alpine, Fedora, and RHEL.
+
+**AmaniGPT was built to reduce the cost of AI**. It can run on tiny `$5/month` cloud VMs with `1 CPU, 0.5 GB RAM, and 10
+GB SSD storage`. However, for better performance, we recommend VMs with at least `2 CPUs, 4 GB RAM, and 80 GB SSD
+storage` (which costs around `$20/month` on [Vultr](https://www.vultr.com/pricing/#cloud-compute)). `AmaniGPT` will use
+all the CPUs and RAM you throw at it, so if your budget allows, you can save a lot of time by using larger VMs.
+
+> **TIP:** you do NOT need to know anything about programming or machine learning in order to use `AmaniGPT`. It helps
+if you do, but ultimately, you only need to be comfortable using the terminal on your computer.
+
+# Installation
+
+Execute the following commands to install `AmaniGPT` on your Linux VM:
+
+```bash
+# OPTIONAL (Debian): install unzip if you don't already have it.
+sudo apt-get update && sudo apt-get install -y unzip
+
+# Create a directory for AmaniGPT and navigate to it.
+mkdir -p ~/amanigpt && cd ~/amanigpt
+
+# Download the latest AmaniGPT binary from GitHub.
+wget https://github.com/AmaniGPT/Community/releases/download/v2026.06/amanigpt-linux-x64-v2026.06.zip
+
+# Unzip the downloaded file and delete it to save space.
+unzip amanigpt-linux-x64-v2026.06.zip && rm amanigpt-linux-x64-v2026.06.zip
+
+# Make the AmaniGPT binary executable.
+chmod +x amani
+
+# Add AmaniGPT to your PATH for easier access (skip this if you are just upgrading to the latest version).
+echo "export PATH=\"$HOME/amanigpt:\$PATH\"" >> ~/.bashrc && source ~/.bashrc
+
+# Confirm that AmaniGPT was added to your PATH (should print "/<home-directory>/amanigpt/amani").
+which amani
+
+# Navigate back to your home directory.
+cd ~
+
+# Run your first AmaniGPT command (should print something like "AmaniGPT Release Build v2026.06").
+amani version
+```
+
+Getting stuck? Got questions? Create a [new issue](https://github.com/AmaniGPT/Community/issues) to request help :+1:
+
+> **TIP:** you can download other versions from the [releases page](https://github.com/AmaniGPT/Community/releases). Be
+sure to update the URLs and file names in the above commands if you choose a different version.
+
+Now that `AmaniGPT` is installed, you can run `amani help` to see a detailed guide of what you can do with it. You should
+also run `amani help --about=shell` to get a quick overview of the syntax for `AmaniGPT` shell-mode commands, which we
+will use throughout this guide.
+
+# Configuration
+
+`AmaniGPT` stores configuration in a `settings` directory alongside the binary. Each configuration value is stored in a
+separate text file.
+
+To see the current configuration, run `amani show-settings --describe=no`. You should see output similar to the following:
+
+```
+SETTING: models-directory-path (string, optional, default: "models")
+
+CURRENT VALUE: models
+
+--------------------------------------------------------------------------------
+SETTING: parameter-cache-min-size-mb (integer, optional, default: 128)
+
+CURRENT VALUE: 128
+
+--------------------------------------------------------------------------------
+SETTING: parameter-cache-max-size-mb (integer, optional, default: 1,024)
+
+CURRENT VALUE: 1,024
+```
+
+To get a detailed description of each setting, run `amani show-settings --describe=yes`.
+
+> **TIP:** you can run `amani show-settings --describe=yes | less` to make it easier to read through the detailed
+descriptions. Use the arrow keys to scroll up and down, and press `q` to exit `less` when you're done.
+
+The most important setting for training and using `AmaniGPT` models is the `parameter-cache-max-size-mb` setting, which
+controls the maximum amount of RAM used for caching model parameters. The default value is `1,024 MB` (i.e. `1 GB`). To
+make it larger (e.g. `2,048 MB`), run the following command:
+
+```bash
+amani change-settings --name=parameter-cache-max-size-mb --value=2048
+```
+
+Smaller values work too (e.g. if you are running `AmaniGPT` locally on a laptop with limited RAM), but everything will
+be slower because `AmaniGPT` spends a lot of time moving model parameters in and out of RAM during training and inference.
+
+> **IMPORTANT:** due to overhead from other parts of the application, make sure the VM has at least `2x` the amount of
+RAM you set for `parameter-cache-max-size-mb`. For example, if you set it to `2,048 MB` (i.e. `2 GB`), make sure the VM
+has at least `4 GB` of RAM, with `5+ GB` being more ideal in order to leave room for the operating system and any other
+applications running on the VM.
+
+# Training
+
+During preview, `AmaniGPT` supports training models using the [OpenWebText dataset](https://zenodo.org/records/3834942).
+
+> **TIP:** you can use any text dataset if you structure it in the same way as the `OpenWebText` dataset. For more details
+on the expected structure, run `amani help --about=train-openwebtext | less`. This shows documentation for the training
+command we'll be using in this section, which includes a detailed description of the expected dataset structure.
+
+First, create a new model to be trained by running the following command:
+
+```bash
+amani create-model --name=owt128 --context-window-size=128
+```
+
+You should see output similar to the following:
+
+```
+Model created successfully:
+            Directory Path: /root/amanigpt/models/owt128
+                  Model ID: 88d72e5e-cd89-4300-927e-acb86b755913
+                Model Name: owt128
+       Context Window Size: 128 tokens
+      Model Format Version: 1.0
+
+To see all available functions for working with the new model, run:
+
+  amani help --about=model
+```
+
+By convention, we use `owt` which is short for `OpenWebText`, followed by the context window size (e.g. `128`) as the
+model name, but you can choose any name you like.
+
+The `context-window-size` parameter controls how many tokens the model can process at once during training and inference.
+Larger context windows improve model quality but also result in larger models that consume more RAM and CPU during training
+and inference. `AmaniGPT` models work surprisingly well even with small context windows which is why we recommend starting
+with a small size like `128` for experimentation.
+
+Next, you can start training the model using the `OpenWebText` dataset by running the following command:
+
+```bash
+amani train-openwebtext --model-name=owt128 --source=web --max-documents=100
+```
+
+This command trains the `owt128` model using `100` documents from the `OpenWebText` dataset **which is streamed directly
+from the web**. You should see output similar to the following:
+
+
+```
+Training on up to 100 documents from:
+
+   https://zenodo.org/records/3834942/files/openwebtext.tar.xz
+
+Loading model from directory:
+
+   /root/amanigpt/models/owt128
+
+Training in progress (press 's' to stop early).
+
+             Shard Name: openwebtext/urlsf_subset00-1000_data.xz
+              File Name: 0999334-f4e2898d8d9b107fcf662d673ca47bf0.txt
+              File Text: It s a well-kept secret, but 95% of the climate mo...
+        Vocabulary Size: 8,714 tokens
+
+       Processed shards: 1
+        Processed files: 100
+        Processed bytes: 505,908
+       Processed tokens: 176,647
+         Excluded files: 0
+
+   Parameter Cache Size: 129 MB
+      Clean Entry Count: 0
+       Cache Load Count: 8,714
+     Cache Unload Count: 0
+   Async Flush Progress: 0.00%
+       Total Flush Wait: 0d 0h 0m 0s
+
+           Elapsed time: 0d 0h 0m 11s
+      Shards per second: 0.09
+       Files per second: 9
+       Bytes per second: 43,297
+      Tokens per second: 15,118
+
+Flushing model files: 100.00%
+
+Training completed after 236,840 operations.
+```
+
+Congratulations! You've just trained your first `AmaniGPT` model from scratch without downloading the 12 GB dataset,
+buying new hardware, or writing a single line of code :rocket:
+
+> **TIP:** you can share your output on the [speed leaderboard](https://github.com/AmaniGPT/Community/issues/1) and see
+other people's training speeds too!
+
+To check the size of the trained model, run `du -h ~/amanigpt/models/owt128`. You should see output similar to the
+following (i.e. the model is approximately `151 MB` in size):
+
+```
+151M    /root/amanigpt/models/owt128/6BA1AE2368A5C224
+151M    /root/amanigpt/models/owt128
+```
+
+For larger training runs, we recommend downloading the dataset first as follows:
+
+```bash
+# Create a datasets directory and navigate to it.
+mkdir -p ~/datasets && cd ~/datasets
+
+# Download the OpenWebText dataset from Zenodo.
+wget https://zenodo.org/records/3834942/files/openwebtext.tar.xz
+```
+
+The original `OpenWebText` dataset is around `12 GB` compressed and should take anywhere from a few minutes to several
+hours to download depending on your internet connection speed.
+
+When the download is complete, you can run the training command again with `--source=$HOME/datasets/openwebtext.tar.xz`
+to train from the downloaded file instead of streaming from the web.
+
+> **TIP:** `AmaniGPT` trains directly from the compressed file. No need to extract anything. You can save the dataset to
+any location you like and specify the path with the `--source` parameter.
+
+# Inference
+
+To generate text with the model you just trained above, run the following command:
+
+```bash
+amani generate-text --model-name=owt128 --max-tokens=128
+```
+
+This will start an interactive text generation session using the `owt128` model. You should see output similar to the
+following:
+
+```
+Loading model from directory:
+
+   /root/amanigpt/models/owt128
+
+Model loaded successfully.
+
+               Model ID: 88d72e5e-cd89-4300-927e-acb86b755913
+             Model Name: owt128
+   Model Format Version: 1.0
+    Context Window Size: 128 tokens
+        Vocabulary Size: 8,784 tokens
+          Feature Count: 1
+
+You can now enter prompts to generate text. The model will generate up to 128 tokens.
+
+NOTE: this is NOT a chatbot. Text is generated by repeatedly predicting the next token based on your prompt.
+
+----- Enter prompt (type 'xxx' to exit) -----
+```
+
+Enter the prompt `He said it was a "tough decision" ` (notice the space at the end) and press `Enter`. You should see
+output similar to the following (**this and other outputs have been lightly edited for readability in this guide**):
+
+```
+----- Enter prompt (type 'xxx' to exit) -----
+He said it was a "tough decision"
+
+----- Prediction Result -----
+He said it was a "tough decision" but that he accepted the U.N. offer to evacuate after a Canadian medical team, also at
+the hospital with Canadian security officers, left the site Friday afternoon. The Belgian team returned Saturday morning.
+
+Gijs said the United Nations has agreed to provide security for Saturday night. The team has requested the Belgian
+government to send its own troops for the fie
+
+Prediction rate: 47 tokens/second
+```
+
+Enter `The delay postponed a definitive answer to ` (again, notice the space at the end) and press `Enter`:
+
+```
+----- Enter prompt (type 'xxx' to exit) -----
+The delay postponed a definitive answer to
+
+----- Prediction Result -----
+The delay postponed a definitive answer to whether Clinton had made a clean sweep of five big primaries on Tuesday night.
+Even if she does not prevail in Missouri, her other victories push her closer to the Democratic presidential nomination
+even as the considerably weakened Sanders vowed to press on with his insurgent campaign.
+
+Clinton won big in Florida, North Carolina and Ohio, while claiming a narrower victory in Ill
+
+Prediction rate: 60 tokens/second
+```
+
+Enter `see the incredible energy of people who love ` and press `Enter`:
+
+```
+----- Enter prompt (type 'xxx' to exit) -----
+see the incredible energy of people who love
+
+----- Prediction Result -----
+see the incredible energy of people who love this country but know we can do so much better," Sanders said to loud screams.
+
+Some of his die-hard supporters expressed hope that he could still pull out the nomination.
+
+"I still think the revolution is coming," said James Homan, 55, a sound engineer for rock musicians, who has homes in
+Illinois and Arizona.
+
+Homan expressed frustration that, as he saw it
+
+Prediction rate: 62 tokens/second
+```
+
+Enter `You can't listen. It's not what you do. ` and press `Enter`:
+
+```
+----- Enter prompt (type 'xxx' to exit) -----
+You can't listen. It's not what you do.
+
+----- Prediction Result -----
+You can't listen. It's not what you do. But the American people have been listening, and they do understand your policies.
+And it's a new day in America.
+
+
+Prediction rate: 76 tokens/second
+```
+
+These prompts are cherry-picked directly from the first few files out of the 100 text files that were processed during
+training earlier above.
+
+The model is able to **reconstruct long passages of coherent text from the training data WITHOUT storing the original
+data**. The algorithm is fast and deterministic (i.e. `same prompt + same model = same output`).
+
+> **FUN FACT:** you can pick any snippet of text from the generated text, enter it as a new prompt, and the model will
+continue reconstructing text from that point onwards. If you increase the value of `--max-tokens`, the model can
+reconstruct entire documents from the training data, effectively showing
+[RAG-like capabilities](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) without actually using RAG.
+
+Since the data comes from Reddit, it is heavy on American news and politics, but the full dataset contains over 8 million
+pages so you will find more variety if you train on more files. During training, you can use the `--exclude-words` parameter
+to exclude files based on certain keywords (run `amani help --about=train-openwebtext | less` for more details).
+
+To get more prompts like the ones above, you should first download the dataset as described in the training section so
+the file can be found at `~/datasets/openwebtext.tar.xz`. Then you can run the following commands to extract and view
+the text files from the first shard of the dataset:
+
+```bash
+# Create a directory for the extracted files.
+mkdir -p ~/datasets/owt-files
+
+# Extract files from the first shard of the OpenWebText dataset.
+tar -xOf ~/datasets/openwebtext.tar.xz --occurrence=1 openwebtext/urlsf_subset00-1000_data.xz | tar -xJf - -C ~/datasets/owt-files
+
+# Count the extracted files (you should see 391 files).
+ls -1 ~/datasets/owt-files | wc -l
+
+# View the content of one of the extracted files (should start with "If you live abroad and are ...").
+cat ~/datasets/owt-files/0999000-4f67df2d0b84dcf65b32cd3ba5fc2d08.txt | less
+```
+
+To use any snippet of text from any of the files as a prompt, you need to train the model on all `391` files using the
+following commands:
+
+```bash
+# Delete the existing model to start fresh.
+amani delete-model --name=owt128 --confirm-name=owt128
+
+# Create a new model.
+amani create-model --name=owt128 --context-window-size=128
+
+# Train the model on all 391 files from the first shard of the OpenWebText dataset.
+amani train-openwebtext --model-name=owt128 --source=$HOME/datasets/openwebtext.tar.xz --max-documents=391
+```
+
+You can then run `amani generate-text --model-name=owt128 --max-tokens=128` again and enter any snippet of text from any
+of the 391 files as a prompt. Below are samples you can try (copy each line separately including the space at the end
+and paste it as a prompt):
+
+```
+If you live abroad and are 
+
+At 1,070 feet, the building is still being touted as the 
+
+Four Cardinal heard their names called at the NFL Draft following the 
+
+Still, at least Johnson took some action. Jones, incredibly, 
+
+In the mid-80s I accumulated about 900 hours as a single 
+
+a list of BEST 7 youngstars (generation 1994 and younger) for 
+
+GOP leaders held their cards close to the vest on 
+
+"Premier Futsal will be a great way to introduce the sport 
+
+A public records request has revealed that 
+
+A defamatory libel is matter published, without lawful 
+```
+
+**NOTE:** if you try the earlier prompts (or those in the next section below) that were used after training on just 100
+files, you may get different results since the model is now trained on more data and its parameters are different. You
+can get the same output by expanding the prompt to provide more context (e.g. this `He said it was a "tough decision" `
+produces mangled output but expanding it to `He said it was a "tough decision" but that he accepted the U.N. offer to `
+gives the model enough context to reconstruct the original coherent text).
+
+# Limitations
+
+We still need to improve the [tokenizer](https://en.wikipedia.org/wiki/Large_language_model#Tokenization). For example
+if you enter `He said it was a "tough decision"!` (we just added an exclamation mark at the end of one of the successful
+prompts), you get an error because the model doesn't recognize the resulting tokens:
+
+```
+----- Enter prompt (type 'xxx' to exit) -----
+He said it was a "tough decision"!
+
+Error: prompt contains out-of-vocabulary tokens. Try again with a different prompt.
+```
+
+It's easy to assume we are "cheating" by secretly storing the training data and printing it back out during inference,
+but that's not the case. You can confirm this by making small changes to the prompt and observing how the model gets lost
+and produces random-looking or repetitive text (a classic failure mode for LLMs that haven't been trained on enough data).
+For example, enter `He said it was a tough decision ` (we just removed the quotation marks around "tough decision"):
+
+```
+----- Enter prompt (type 'xxx' to exit) -----
+He said it was a tough decision
+
+----- Prediction Result -----
+He said it was a tough decision of and that he worse the the "in whey to that tha-they a somt in of a . to cone in the
+they of is for with and cone are to the the 'thea they a , in to 'a 1. thathea . pro1, as theis a . 21-a . to a with it
+is the 1, to ito The 2-then for 1. in to for a with with they in of the The ent to sail than the ’2, 10.
+
+'I hav
+
+Prediction rate: 20 tokens/second
+```
+
+Another example can be seen by mixing snippets from the different examples shown earlier, to make a longer prompt like
+`The delay to the incredible energy ` which combines `The delay ...` and `... the incredible energy ...`:
+
+```
+----- Enter prompt (type 'xxx' to exit) -----
+The delay to the incredible energy
+
+----- Prediction Result -----
+The delay to the incredible energy to the the . thithe this to thathe a . to the will , a , . a s havt in and to to -to
+and the conthe
+
+. of to the the the the . of that that to thethat to coue a to that . to witthe the the 'a t to 'in to and to the
+e the ion and . to the s that for to thethia , and the e to you to , the 'in the the the the t in at is d and it eto .
+
+of a . witt to 'you tha
+
+Prediction rate: 16 tokens/second
+```
+
+The model is trying to generalize based on its limited training data and producing valid tokens like `to` and `the`, and
+even short coherent phrases like `to the`, `to the will`, `of that`, `to that`, `and to the`, `to you` and `of a`.
+**Based on these observations, we have reason to believe the quality of the generated text will improve significantly
+when we train on more data and increase the context window size**.
+
+# Conclusion
+
+In this guide, we installed and configured `AmaniGPT`, trained a small model from scratch using the `OpenWebText`
+dataset, then used it to generate coherent text samples based on prompts. We also discussed some of the limitations
+of the current version and the improvements we are working on for the next preview release. **Most importantly, we did
+all of this on ordinary, inexpensive computer hardware available to anyone without writing a single line of code!**
+
+While it is still early days for `AmaniGPT`, we are excited about the possibility of making AI more sustainable and useful
+for everyone. To ask questions, share feedback, or stay updated on new releases, send an email to `eric@amanigpt.com`.
+
+Thanks for reading. Please help us spread the word about `AmaniGPT` :rocket:
