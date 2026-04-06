@@ -8,6 +8,50 @@ This is the community repo where you can:
 - File bug reports, make feature requests, and ask questions.
 - Read tutorials and guides on how to use AmaniGPT.
 
+# Licensing
+
+AmaniGPT is currently (as of `April 2026`) in preview and can be used for non-production evaluation purposes only. When
+it becomes generally available (expected by `November 2026`), it will be offered under the following editions:
+
+- **Community Edition**: free for commercial and non-commercial use on up to `XXX` CPU cores.
+- **Enterprise Edition**: paid for use on more than `XXX` CPU cores. Includes priority support and maintenance.
+- **Sovereign Edition**: paid for use on unlimited CPU cores. Includes priority support and maintenance.
+
+**NOTE:** the above is provided for informational purposes only and is subject to change without notice. For licensing
+inquiries, please see the contact section below.
+
+# Vision & Roadmap
+
+AmaniGPT is part of a broader vision to democratize AI and transform society over the next 10 years in multiple phases:
+
+- **Phase 0 (Preview)**: we are here now. The goal is to finalize and validate CPU-only LLMs as a more reliable and 
+  sustainable alternative to GPU-based LLMs.
+
+- **Phase 1 (General Availability)**: expected by `November 2026`. AmaniGPT should be generally available and offer
+  fast, offline, unlimited, privacy-preserving training and inference on commodity CPU clusters. At this point, the
+  marginal cost of both training and inference should be close to zero, and that's when everything changes!
+
+- **Phase 2 (Agents Reboot)**: expected by `2027-2028`. With the cost of training and inference close to zero, the
+  cost of experimentation and failure also approaches zero. This should unlock new possibilities through agents that
+  work together in parallel to explore thousands of possible solutions to a problem without costs spiraling out of
+  control.
+
+- **Phase 3 (Symbiotes)**: expected by `2028-2030`. With the cost of training and inference close to zero, we can build
+  hyper-personalized agents (called symbiotes) that are paired with individuals for life, continuously learning and
+  evolving with them. If you are a professional surgeon, engineer, architect, etc, your symbiote learns from you until
+  it becomes a professional in the same field and can assist you in your life's work.
+
+- **Phase 4 (Embodied Symbiotes)**: expected by `2030-2036`. To cover the full spectrum of human knowledge and skills,
+  symbiotes will gain physical embodiments outside phones and computers, such as humanoid robots, self-driving cars,
+  drones, submarines, etc. Your embodied symbiote allows you to be in multiple places at once and carry out physical
+  tasks (e.g. a mechanic symbiote can repair multiple cars at the same time under the supervision of its human partner).
+
+Some of the technology needed to achieve the above vision already exists in AmaniGPT's architecture (e.g. it is natively
+multimodal which should be useful when building symbiotes that can see, hear, speak, and move). The main task over the
+next 10 years is to validate the architecture, optimize it for speed and reliability, and build an accessible ecosystem
+so others can contribute. Get in touch if you want to be part of our Early Adopter Program and help us build AI that
+makes everyday life better in meaningful ways!
+
 # Acknowledgements
 
 - Thanks to Aaron Gokaslan, Vanya Cohen, Ellie Pavlick and Stefanie Tellex at Brown University for putting together the
@@ -25,7 +69,7 @@ LLMs like AmaniGPT.
 debugger which makes it possible to "look into the mind" of an AmaniGPT model with millions of parameters and make sense
 of how it predicts the next token during inference.
 
-**NOTE:** AmaniGPT is an independent project and is not officially affiliated with or endorsed by the above individuals,
+**NOTE:** AmaniGPT is an independent project and is NOT officially affiliated with or endorsed by the above individuals,
 teams, and organizations. All trademarks and names are the property of their respective owners.
 
 # Contact
