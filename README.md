@@ -7,8 +7,20 @@ attention, positional encoding, nonlinear activations) and reimagines them using
 structures.
 
 This is the community repo where you can:
-- File bug reports, make feature requests, and ask questions.
-- Read our handy guides on [using](use-model.md) and [training](train-model.md) your own `AmaniGPT` models.
+- Read the official guide on [quickly trying out AmaniGPT](use-existing-model.md) with a prebuilt model.
+- Read the official guide on [training your own AmaniGPT model](train-new-model.md) from scratch.
+- Provide feedback and ask questions using [GitHub Issues](https://github.com/AmaniGPT/Community/issues).
+
+# Benchmarks
+
+While `AmaniGPT` is still experimental, the goal is to build a product that is worth using and paying for. To that end,
+the only benchmarks we will discuss and optimize for are the following:
+
+1. Does it work on your hardware?
+1. Is it [fast enough](https://github.com/AmaniGPT/Community/issues/1) for your use case?
+1. Does it produce accurate outputs without hallucinating?
+1. Does it meet your compliance, privacy and security requirements?
+1. Does it empower you to [do some truly legendary shit](https://www.youtube.com/watch?v=FyY0fEO5jVY&t=2611s)?
 
 # Licensing
 
