@@ -2,9 +2,10 @@
 # Overview
 
 `AmaniGPT` is an experimental LLM architecture **designed to work efficiently on commodity CPU clusters in order to 
-reduce the need for powerful but expensive GPUs**. It takes familiar transformer concepts (token embeddings, self 
-attention, positional encoding, nonlinear activations) and reimagines them using CPU-friendly algorithms and data
-structures.
+reduce the need for powerful but expensive GPUs**.
+
+We took familiar transformer concepts (e.g. token embeddings, self-attention, etc) and reimagined them using CPU-only
+algorithms and data structures.
 
 This is the community repo where you can:
 - Read the official guide on [quickly trying out AmaniGPT](use-existing-model.md) with a prebuilt model.
@@ -27,8 +28,8 @@ the only benchmarks we will discuss and optimize for are the following:
 `AmaniGPT` is currently (as of `April 2026`) in preview and can be used for non-production evaluation purposes only.
 When it becomes generally available (expected by `November 2026`), it will be offered under the following editions:
 
-- **Community Edition**: free for commercial and non-commercial use on up to `XXX` CPU cores.
-- **Enterprise Edition**: paid for use on more than `XXX` CPU cores. Includes priority support and maintenance.
+- **Community Edition**: free for commercial and non-commercial use on up to 100 CPU cores.
+- **Enterprise Edition**: paid for use on more than 100 CPU cores. Includes priority support and maintenance.
 - **Sovereign Edition**: paid for use on unlimited CPU cores. Includes priority support and maintenance.
 
 **NOTE:** the above is provided for informational purposes only and is subject to change without notice. For licensing
@@ -50,7 +51,7 @@ the broader community.
 
 # Roadmap
 
-`AmaniGPT` is part of a broader vision to democratize AI and transform society over the next 10 years in multiple phases:
+`AmaniGPT` is part of our vision to **make AI more accessible and useful** over the next 10 years in multiple phases:
 
 - **Phase 0 (Preview)**: we are here now. The goal is to finalize and validate CPU-only LLMs as a more reliable and 
   sustainable alternative to GPU-based LLMs.
@@ -75,10 +76,10 @@ the broader community.
   tasks (e.g. a mechanic symbiote can repair multiple cars at the same time under the supervision of its human partner).
 
 Some of the features needed to achieve the above vision already exist in `AmaniGPT` today (e.g. it is multimodal which
-should be useful when building symbiotes that can see, hear, speak, and move). The main task over the next 10 years is
-to validate the architecture, optimize it for speed and reliability, and build an accessible ecosystem so others can
-contribute. Get in touch if you want to be part of our Early Adopter Program and help us build AI that makes everyday
-life better in meaningful ways!
+should be useful when building symbiotes that can see, hear, speak, and move). The mission over the next 10 years is
+to validate the architecture, optimize it for speed and reliability, and build an accessible ecosystem so everyone can
+contribute. Get in touch if you want to be part of our Early Adopter Program and help us build AI that makes daily life
+better in ways that matter to you!
 
 # Acknowledgements
 
