@@ -8,8 +8,8 @@ We took familiar transformer concepts (e.g. token embeddings, self-attention, et
 algorithms and data structures.
 
 This is the community repo where you can:
-- Read the official guide on [quickly trying out AmaniGPT](use-existing-model.md) with a prebuilt model.
-- Read the official guide on [training your own AmaniGPT model](train-new-model.md) from scratch.
+- Read the official guide on [quickly trying out AmaniGPT](owt-use.md) with a prebuilt model.
+- Read the official guide on [training your own AmaniGPT model](owt-train.md) from scratch.
 - Provide feedback and ask questions using [GitHub Issues](https://github.com/AmaniGPT/Community/issues).
 
 # Benchmarks
@@ -22,6 +22,31 @@ the only benchmarks we will discuss and optimize for are the following:
 1. Does it produce accurate outputs without hallucinating?
 1. Does it meet your compliance, privacy and security requirements?
 1. Does it empower you to [do some truly legendary shit](https://www.youtube.com/watch?v=FyY0fEO5jVY&t=2611s)?
+
+# Limitations
+
+`AmaniGPT` is a tool. It is not alive, sentient, or conscious. It does not think, have an imagination, or want anything.
+
+The hype around AI and the subsequent public backlash is based on treating AI tools as if they are human. They are not.
+
+A calculator is not a mathematician. It is a tool that mathematicians can use for some tasks. `AmaniGPT` is the same.
+
+We encourage people to use `AmaniGPT` where it makes sense and to do so while understanding that it has limitations.
+
+Specifically, `AmaniGPT` models are only as good as their training data and will reflect the same inaccuracies, biases,
+omissions, and inconsistencies present in that data. Always review model responses before using them for critical work.
+
+# Releases
+
+We plan to release one major version of `AmaniGPT` every year in November, with minor releases happening monthly until
+the next major release. If you ask us for an ETA on a specific request, the answer will always be one of the following:
+
+- **Minor requests:** "at the end of this or next month".
+- **Major requests:** "at the end of this or next year".
+
+This approach allows us to build high-quality software and deliver it on a predictable schedule for everyone. If you
+have a specific deadline, please get in touch with your account manager to get a quote (this option is only available
+for Enterprise and Sovereign Edition license holders).
 
 # Licensing
 
@@ -57,7 +82,7 @@ the broader community.
   sustainable alternative to GPU-based LLMs.
 
 - **Phase 1 (General Availability)**: expected by `November 2026`. `AmaniGPT` should be generally available and offer
-  fast, offline, unlimited, privacy-preserving training and inference on commodity CPU clusters. At this point, the
+  **fast, offline, unlimited, privacy-preserving training and inference on commodity CPU clusters**. At this point, the
   marginal cost of both training and inference should be close to zero, and that's when everything changes!
 
 - **Phase 2 (Agents Reboot)**: expected by `2027-2028`. With the cost of training and inference close to zero, the
