@@ -1,8 +1,8 @@
 
 # Overview
 
-`AmaniGPT` is an experimental LLM architecture **designed to work efficiently on commodity CPU clusters in order to 
-reduce the need for powerful but expensive GPUs**.
+`AmaniGPT` is an experimental LLM runtime **designed to work efficiently on commodity CPU clusters in order to reduce
+the need for powerful but expensive GPUs**.
 
 We took familiar transformer concepts (e.g. token embeddings, self-attention, etc) and reimagined them using CPU-only
 algorithms and data structures.
