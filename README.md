@@ -13,6 +13,7 @@ algorithms and data structures. The result is an AI engine that:
 1. **Protects your privacy** by keeping all code, data, and conversations on your devices or network.
 1. **Gives you complete control** by allowing you to build your own models using your own rules and data.
 1. **Maximizes your productivity** by removing token limits since everything runs on your own hardware.
+1. **Dramatically reduces costs** by doing all of the above on standard CPUs that you already use today.
 
 This is the community repo where you can:
 
@@ -29,7 +30,7 @@ the only benchmarks we will discuss and optimize for are the following:
 1. Is it [fast enough](https://github.com/AmaniGPT/Community/issues/1) for your use case?
 1. Does it produce accurate outputs without hallucinating?
 1. Does it meet your compliance, privacy and security requirements?
-1. Does it empower you to [do some truly legendary shit](https://www.youtube.com/watch?v=FyY0fEO5jVY&t=2611s)?
+1. Does it allow you to [do legendary shit](https://www.youtube.com/watch?v=FyY0fEO5jVY&t=2611s)?
 
 # Limitations
 
@@ -41,8 +42,9 @@ A calculator is not a mathematician. It is a tool that mathematicians can use fo
 
 We encourage people to use `AmaniGPT` where it makes sense and to do so while understanding that it has limitations.
 
-Specifically, `AmaniGPT` models are only as good as their training data and will reflect the same inaccuracies, biases,
-omissions, and inconsistencies present in that data. Always review model responses before using them for critical work.
+Specifically, `AmaniGPT` **models are only as good as their training data** and will reflect the same inaccuracies,
+biases, omissions, and inconsistencies present in that data. Always review model responses before using them for 
+critical work.
 
 # Releases
 
@@ -53,34 +55,50 @@ the next major release. If you ask us for an ETA on a specific request, the answ
 - **Major requests:** "at the end of this or next year".
 
 This approach allows us to build high-quality software and deliver it on a predictable schedule for everyone. If you
-have a specific deadline, please get in touch with your account manager to get a quote (this option is only available
-for Enterprise and Sovereign Edition license holders).
+have a specific deadline, please get in touch with our team to share your requirements and get a quote (this option is
+only available for Enterprise and Sovereign Edition license holders).
 
 # Licensing
 
-`AmaniGPT` is currently (as of `April 2026`) in preview and can be used for non-production evaluation purposes only.
+`AmaniGPT` is currently (as of `April 2026`) in preview and **can be used for non-production evaluation purposes only**.
 When it becomes generally available (expected by `November 2026`), it will be offered under the following editions:
 
-- **Community Edition**: free for commercial and non-commercial use on up to 100 CPU cores.
-- **Enterprise Edition**: paid for use on more than 100 CPU cores. Includes priority support and maintenance.
+- **Community Edition**: free for commercial and non-commercial use on up to `100 CPU cores`.
+- **Enterprise Edition**: paid for use on more than `100 CPU cores`. Includes priority support and maintenance.
 - **Sovereign Edition**: paid for use on unlimited CPU cores. Includes priority support and maintenance.
 
-**NOTE:** the above is provided for informational purposes only and is subject to change without notice. For licensing
-and pre-order inquiries, please see the contact section below.
+**NOTE:** the above is provided for informational purposes only and is subject to change without notice.
+
+# Pre-orders
+
+If your organization is feeling the strain of AI-related capital and operational expenditures, `AmaniGPT` can help. By
+pre-ordering an Enterprise or Sovereign Edition license, you gain access to fast, private, unlimited AI on hardware you
+already own, along with the following benefits:
+
+1. **Lock in preferential pricing** before general availability in `November 2026`.
+1. **Secure a perpetual license** to use `AmaniGPT` technology, regardless of any future exclusivity arrangements.
+1. **Influence the roadmap** by working directly with our team to prioritize features relevant to your core needs.
+1. **Ensure successful adoption** by evaluating `AmaniGPT` with the help of our team before you make a full commitment.
+
+For more information, please contact: **eric@amanigpt.com**
 
 # Partnerships
 
 `AmaniGPT` allows you to build and use AI models which solve problems that matter to you. We personally care about the
 following areas:
 
-- Developer tools & IDEs.
-- Mobile & desktop operating systems.
-- Browsers & productivity apps.
+1. Developer tools & IDEs.
+1. Mobile & desktop operating systems.
+1. Browsers & productivity apps.
 
-If your company (1) offers a product in any of the areas listed above, (2) has pre-ordered an Enterprise or Sovereign 
-Edition license, and (3) is building something we already use ourselves, then we would especially love to partner with
-you! You will receive our full support and close collaboration, since your success directly benefits our own work and
-the broader community.
+We would especially love to partner with your organization if:
+
+1. You offer a product in any of the areas listed above.
+1. You have pre-ordered an Enterprise or Sovereign Edition license.
+1. You are building something we already use ourselves.
+
+As a qualified partner, you will receive our full support and close collaboration, since your success directly benefits
+our own work and the broader community.
 
 # Roadmap
 
@@ -136,5 +154,9 @@ teams, and organizations. All trademarks and names are the property of their res
 
 # Contact
 
-For licensing, media and other inquiries, please contact: **eric.mutta@gmail.com**
+Eric Mutta (the creator of `AmaniGPT`) is a tech entrepreneur and software engineer with 27 years of experience. He
+has a passion for tackling seemingly impossible problems and is assembling a team to prepare `AmaniGPT` for general
+availability by `November 2026`.
+
+For media, licensing, and pre-order inquiries, please contact: **eric@amanigpt.com**
 
