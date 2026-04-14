@@ -108,9 +108,9 @@ benefits our own work and the broader community.
   sustainable alternative to GPU-based LLMs.
 
 - **Phase 1 (General Availability)**: expected by `November 2026`. `AmaniGPT` should be generally available and offer
-  **fast, offline, unlimited, private AI on standard CPUs**. The marginal cost of training and inference should be close
-  to zero. Intelligence can be everywhere at once. **Everything can think**: from houses to cities, cars to planes,
-  farms to factories. Everything is your agent. Everything works for you.
+  **fast, offline, unlimited, private AI on commodity hardware**. The marginal cost of training and inference should be
+  close to zero. Intelligence can be everywhere at once. **Everything can think**. From houses to cities, cars to planes,
+  farms to factories, businesses to entire economies. Everything is your agent. Everything works for you.
 
 - **Phase 2 (Agents Reboot)**: expected by `2027-2028`. With the cost of training and inference close to zero, the
   **cost of experimentation and failure also approaches zero**. This should unlock new possibilities through agents that
