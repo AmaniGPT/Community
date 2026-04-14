@@ -1,10 +1,10 @@
 
 # Overview
 
-`AmaniGPT` is an experimental AI engine **designed to work efficiently on commodity CPU clusters in order to reduce the
+`AmaniGPT` is an **experimental AI engine designed to work efficiently on commodity CPU clusters in order to reduce the
 need for powerful but expensive GPUs**.
 
-We took familiar transformer concepts (e.g. token embeddings, self-attention, etc) and reimagined them using CPU-only
+We took familiar transformer concepts (e.g. token embeddings and self-attention) and reimagined them using CPU-only
 algorithms and data structures. The result is an AI engine that:
 
 1. **Generates answers instantly** so you never have to wait.
@@ -29,7 +29,7 @@ the only benchmarks we will discuss and optimize for are the following:
 1. Does it work on your hardware?
 1. Is it [fast enough](https://github.com/AmaniGPT/Community/issues/1) for your use case?
 1. Does it produce accurate outputs without hallucinating?
-1. Does it meet your compliance, privacy and security requirements?
+1. Does it meet your **compliance, privacy and security requirements**?
 1. Does it allow you to [do legendary shit](https://www.youtube.com/watch?v=FyY0fEO5jVY&t=2611s)?
 
 # Limitations
@@ -95,10 +95,10 @@ We would especially love to partner with your organization if:
 
 1. You offer a product in any of the areas listed above.
 1. You have pre-ordered an Enterprise or Sovereign Edition license.
-1. You are building something we already use ourselves.
+1. You are building products we already use ourselves.
 
-As a qualified partner, you will receive our full support and close collaboration, since your success directly benefits
-our own work and the broader community.
+As a qualified partner, **you will receive our full support and close collaboration**, since your success directly
+benefits our own work and the broader community.
 
 # Roadmap
 
@@ -108,29 +108,31 @@ our own work and the broader community.
   sustainable alternative to GPU-based LLMs.
 
 - **Phase 1 (General Availability)**: expected by `November 2026`. `AmaniGPT` should be generally available and offer
-  **fast, offline, unlimited, privacy-preserving training and inference on commodity CPU clusters**. At this point, the
-  marginal cost of both training and inference should be close to zero, and that's when everything changes!
+  **fast, offline, unlimited, private AI on standard CPUs**. The marginal cost of training and inference should be close
+  to zero. Intelligence can be everywhere at once. **Everything can think**: from houses to cities, cars to planes,
+  farms to factories. Everything is your agent. Everything works for you.
 
 - **Phase 2 (Agents Reboot)**: expected by `2027-2028`. With the cost of training and inference close to zero, the
-  cost of experimentation and failure also approaches zero. This should unlock new possibilities through agents that
+  **cost of experimentation and failure also approaches zero**. This should unlock new possibilities through agents that
   work together in parallel to explore thousands of possible solutions to a problem without costs spiraling out of
   control.
 
 - **Phase 3 (Symbiotes)**: expected by `2028-2030`. With the cost of training and inference close to zero, we can build
-  hyper-personalized agents (called symbiotes) that are paired with individuals for life, continuously learning and
+  hyper-personalized agents (called symbiotes) that are paired with individuals for life, **continuously learning** and
   evolving with them. If you are a professional surgeon, engineer, architect, etc, your symbiote learns from you until
   it becomes a professional in the same field and can assist you in your life's work.
 
 - **Phase 4 (Embodied Symbiotes)**: expected by `2030-2036`. To cover the full spectrum of human knowledge and skills,
   symbiotes will gain physical embodiments outside phones and computers, such as humanoid robots, self-driving cars,
-  drones, submarines, etc. Your embodied symbiote allows you to be in multiple places at once and carry out physical
+  drones, submarines, etc. **Your embodied symbiote allows you to be in multiple places at once** and carry out physical
   tasks (e.g. a mechanic symbiote can repair multiple cars at the same time under the supervision of its human partner).
 
-Some of the features needed to achieve the above vision already exist in `AmaniGPT` today (e.g. it is multimodal which
-should be useful when building symbiotes that can see, hear, speak, and move). The mission over the next 10 years is
-to validate the architecture, optimize it for speed and reliability, and build an accessible ecosystem so everyone can
-contribute. Get in touch if you want to be part of our Early Adopter Program and help us build AI that makes daily life
-better in ways that matter to you!
+Some of the features required to achieve the above vision already exist in prototype form within `AmaniGPT` today (e.g.
+it is natively multimodal which should be useful when building symbiotes that can see, hear, speak, and move).
+
+The mission over the next 10 years is to **validate** the architecture, **optimize** it for speed and reliability, and
+build an **accessible ecosystem** so everyone can contribute. We welcome you to join us on this exciting journey and
+help us build AI that makes daily life better in ways that matter to you!
 
 # Acknowledgements
 
@@ -142,8 +144,8 @@ dataset is used to train `AmaniGPT` models for research and demonstration purpos
 the XZ compression format used by the OpenWebText dataset.
 
 - Thanks to the [C#](https://github.com/dotnet/csharplang) and [dotnet](https://github.com/dotnet/runtime) teams for
-providing free, open-source programming tools and libraries that make it possible to build high-performance CPU-only
-LLMs like `AmaniGPT`.
+providing free, open-source **programming tools and libraries that make it possible to build high-performance CPU-only
+LLMs** like `AmaniGPT`.
 
 - Thanks to the mysterious team behind the legendary [Visual Studio](https://learn.microsoft.com/visualstudio/debugger/)
 debugger which makes it possible to "look into the mind" of an `AmaniGPT` model with millions of parameters and make sense
