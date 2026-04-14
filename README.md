@@ -13,7 +13,7 @@ algorithms and data structures. The result is an AI engine that:
 1. **Protects your privacy** by keeping all code, data, and conversations on your devices or network.
 1. **Gives you complete control** by allowing you to build your own models using your own rules and data.
 1. **Maximizes your productivity** by removing token limits since everything runs on your own hardware.
-1. **Dramatically reduces costs** by doing all of the above on standard CPUs that you already use today.
+1. **Dramatically reduces costs** by doing all of the above on commodity CPUs that you already use today.
 
 This is the community repo where you can:
 
@@ -34,7 +34,7 @@ the only benchmarks we will discuss and optimize for are the following:
 
 # Limitations
 
-`AmaniGPT` is a tool. It is not alive, sentient, or conscious. It does not think, have an imagination, or want anything.
+`AmaniGPT` is a tool. It is not alive, sentient, or conscious. It does not feel, have an imagination, or want anything.
 
 The hype around AI and the subsequent public backlash is based on treating AI tools as if they are human. They are not.
 
@@ -102,25 +102,25 @@ benefits our own work and the broader community.
 
 # Roadmap
 
-`AmaniGPT` is part of our vision to **make AI more accessible and useful** over the next 10 years in multiple phases:
+`AmaniGPT` is part of our vision to **make AI more accessible and useful** over the next 10 years, in multiple phases:
 
-- **Phase 0 (Preview)**: we are here now. The goal is to finalize and validate CPU-only LLMs as a more reliable and 
-  sustainable alternative to GPU-based LLMs.
+- **Phase 0 (Preview)**: we are here now. The goal is to finalize and validate CPU-only AI as a more reliable and
+  sustainable alternative to GPU-heavy AI.
 
-- **Phase 1 (General Availability)**: expected by `November 2026`. `AmaniGPT` should be generally available and offer
-  **fast, offline, unlimited, private AI on commodity hardware**. The marginal cost of training and inference should be
-  close to zero. Intelligence can be everywhere at once. **Everything can think**. From houses to cities, cars to planes,
-  farms to factories, businesses to entire economies. Everything is your agent. Everything works for you.
+- **Phase 1 (General Availability)**: expected by `November 2026`. `AmaniGPT` should offer **fast, offline, unlimited,
+  private AI on commodity hardware**. The marginal cost of training and inference should be close to zero. Intelligence
+  can be everywhere at once. **Everything can _think_: from houses to cities, cars to planes, farms to factories,
+  businesses to entire markets**. Everything is your agent. Everything works for you.
 
-- **Phase 2 (Agents Reboot)**: expected by `2027-2028`. With the cost of training and inference close to zero, the
-  **cost of experimentation and failure also approaches zero**. This should unlock new possibilities through agents that
-  work together in parallel to explore thousands of possible solutions to a problem without costs spiraling out of
-  control.
+- **Phase 2 (Agents Reboot)**: expected by `2027-2028`. Agents have struggled in the past because failure is expensive.
+  However, **when the cost of inference is close to zero, the cost of experimentation and failure also becomes zero**.
+  Agents can start working together in parallel to explore hundreds of possible solutions to a problem without costs
+  spiraling out of control.
 
 - **Phase 3 (Symbiotes)**: expected by `2028-2030`. With the cost of training and inference close to zero, we can build
   hyper-personalized agents (called symbiotes) that are paired with individuals for life, **continuously learning** and
-  evolving with them. If you are a professional surgeon, engineer, architect, etc, your symbiote learns from you until
-  it becomes a professional in the same field and can assist you in your life's work.
+  evolving with them. If you are a professional (e.g. a surgeon, engineer or architect), your symbiote learns from you
+  until it becomes a professional in the same field and can assist you in your life's work.
 
 - **Phase 4 (Embodied Symbiotes)**: expected by `2030-2036`. To cover the full spectrum of human knowledge and skills,
   symbiotes will gain physical embodiments outside phones and computers, such as humanoid robots, self-driving cars,
@@ -131,8 +131,8 @@ Some of the features required to achieve the above vision already exist in proto
 it is natively multimodal which should be useful when building symbiotes that can see, hear, speak, and move).
 
 The mission over the next 10 years is to **validate** the architecture, **optimize** it for speed and reliability, and
-build an **accessible ecosystem** so everyone can contribute. We welcome you to join us on this exciting journey and
-help us build AI that makes daily life better in ways that matter to you!
+**build an accessible ecosystem** so everyone can contribute. We welcome you to join us on this ambitious journey and
+help us build AI that makes our daily lives more productive, enjoyable, and meaningful.
 
 # Acknowledgements
 
@@ -145,7 +145,7 @@ the XZ compression format used by the OpenWebText dataset.
 
 - Thanks to the [C#](https://github.com/dotnet/csharplang) and [dotnet](https://github.com/dotnet/runtime) teams for
 providing free, open-source **programming tools and libraries that make it possible to build high-performance CPU-only
-LLMs** like `AmaniGPT`.
+AI engines** like `AmaniGPT`.
 
 - Thanks to the mysterious team behind the legendary [Visual Studio](https://learn.microsoft.com/visualstudio/debugger/)
 debugger which makes it possible to "look into the mind" of an `AmaniGPT` model with millions of parameters and make sense
