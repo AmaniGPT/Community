@@ -109,7 +109,7 @@ benefits our own work and the broader community.
 
 - **Phase 1 (General Availability)**: expected by `November 2026`. `AmaniGPT` should offer **fast, offline, unlimited,
   private AI on commodity hardware**. The marginal cost of training and inference should be close to zero. Intelligence
-  can be everywhere at once, transforming how we live, move, produce, and trade. **Everything can _think_: from houses
+  can be everywhere at once, simplifying how we live, move, produce, and trade. **Everything can _think_: from houses
   to cities, cars to planes, farms to factories, businesses to entire markets**. Everything is your agent. Everything
   works for you.
 
