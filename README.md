@@ -109,13 +109,14 @@ benefits our own work and the broader community.
 
 - **Phase 1 (General Availability)**: expected by `November 2026`. `AmaniGPT` should offer **fast, offline, unlimited,
   private AI on commodity hardware**. The marginal cost of training and inference should be close to zero. Intelligence
-  can be everywhere at once. **Everything can _think_: from houses to cities, cars to planes, farms to factories,
-  businesses to entire markets**. Everything is your agent. Everything works for you.
+  can be everywhere at once, transforming how we live, move, produce, and trade. **Everything can _think_: from houses
+  to cities, cars to planes, farms to factories, businesses to entire markets**. Everything is your agent. Everything
+  works for you.
 
 - **Phase 2 (Agents Reboot)**: expected by `2027-2028`. Agents have struggled in the past because failure is expensive.
   However, **when the cost of inference is close to zero, the cost of experimentation and failure also becomes zero**.
-  Agents can start working together in parallel to explore hundreds of possible solutions to a problem without costs
-  spiraling out of control.
+  Agents will be able to work together in teams to explore hundreds of possible solutions to your most pressing problems
+  without costs spiraling out of control.
 
 - **Phase 3 (Symbiotes)**: expected by `2028-2030`. With the cost of training and inference close to zero, we can build
   hyper-personalized agents (called symbiotes) that are paired with individuals for life, **continuously learning** and
