@@ -26,7 +26,7 @@ This is the community repo where you can:
 While `AmaniGPT` is still experimental, the goal is to build a product that is worth using and paying for. To that end,
 the only benchmarks we will discuss and optimize for are the following:
 
-1. Does it work on your hardware?
+1. Does it work on your existing hardware?
 1. Is it [fast enough](https://github.com/AmaniGPT/Community/issues/1) for your use case?
 1. Does it produce accurate outputs without hallucinating?
 1. Does it meet your **compliance, privacy and security requirements**?
@@ -63,7 +63,7 @@ only available for Enterprise and Sovereign Edition license holders).
 `AmaniGPT` is currently (as of `April 2026`) in preview and **can be used for non-production evaluation purposes only**.
 When it becomes generally available (expected by `November 2026`), it will be offered under the following editions:
 
-- **Community Edition**: free for commercial and non-commercial use on up to `100 CPU cores`.
+- **Community Edition**: free for both commercial and non-commercial use on up to `100 CPU cores`.
 - **Enterprise Edition**: paid for use on more than `100 CPU cores`. Includes priority support and maintenance.
 - **Sovereign Edition**: paid for use on unlimited CPU cores. Includes priority support and maintenance.
 
