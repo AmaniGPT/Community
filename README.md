@@ -135,6 +135,37 @@ The mission over the next 10 years is to **validate** the architecture, **optimi
 **build an accessible ecosystem** so everyone can contribute. We welcome you to join us on this ambitious journey and
 help us build AI that makes our daily lives more productive, enjoyable, and meaningful.
 
+# Thriving
+
+The greatest existential threat facing humanity has been the same since day one: **unsustainable growth**. We as a
+species are growing faster than our environment, infrastructure, schools, hospitals, and courts can keep up with. If
+100 people are born today, they all immediately need food, healthcare, and education, but it takes 20+ years for any
+of them to become farmers, doctors or teachers. By the time they are ready to contribute, millions more people will
+have been born. **The math simply doesn't work**. 
+
+The only way we have survived this long is through increasingly advanced forms of **automation**:
+
+1. **Tools**: we started by creating tools that extended our physical capabilities (e.g. hammers and axes).
+1. **Machines**: tools can't work without us, so we created machines to reduce our involvement (e.g. washing machines).
+1. **Software**: machines are limited to specific tasks, so we created software that is easier to update for new tasks.
+
+**Software is beginning to reach its limits because it can only do what it is programmed to do** and it takes too long
+to adapt to new tasks or inputs that weren't anticipated by its programmers. As outlined in the roadmap, AI allows us to
+build software (in the form of agents and symbiotes) that **can learn and adapt to new tasks "just in time" without
+manual reprogramming**.
+
+AI allows us to do something that has never been possible: **instant replication and global distribution of knowledge
+and skills**. This is how 100 people born today have immediate access to 100 farmers, doctors, and teachers. This is how
+a planet with billions of people living in cities avoids food riots, disease epidemics, and surging crime rates. **AI
+is how humanity survives and thrives over the next 100 years**.
+
+As the `AmaniGPT` roadmap unfolds, we **plan to engage with people at all levels of society** to gather thoughts, define
+effective policies, and ultimately build a world that our children will be proud to inherit.
+
+Stay tuned for more details on this topic in the coming months, especially regarding **the COCO (Capability, Objectives,
+Constraints, Oversight) blueprint** for building, evaluating, and deploying AI systems that operate with one prime
+directive: **to enhance and protect the dignity of human life**.
+
 # Acknowledgements
 
 - Thanks to Aaron Gokaslan, Vanya Cohen, Ellie Pavlick and Stefanie Tellex at Brown University for putting together the
