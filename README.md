@@ -145,8 +145,8 @@ have been born. **The math simply doesn't work**.
 
 The only way we have survived this long is through increasingly advanced forms of **automation**:
 
-1. **Tools**: we started by creating tools that extended our physical capabilities (e.g. hammers and axes).
-1. **Machines**: tools can't work without us, so we created machines to reduce our involvement (e.g. washing machines).
+1. **Tools**: we started by creating tools that extended our physical abilities (e.g. hammers and axes).
+1. **Machines**: tools can't work without us, so we created machines that do more work for us (e.g. washing machines).
 1. **Software**: machines are limited to specific tasks, so we created software that is easier to update for new tasks.
 
 **Software is beginning to reach its limits because it can only do what it is programmed to do** and it takes too long
@@ -164,7 +164,7 @@ effective policies, and ultimately build a world that our children will be proud
 
 Stay tuned for more details on this topic in the coming months, especially regarding **the COCO (Capability, Objectives,
 Constraints, Oversight) blueprint** for building, evaluating, and deploying AI systems that operate with one prime
-directive: **to enhance and protect the dignity of human life**.
+directive: **to protect and enhance the dignity of human life**.
 
 # Acknowledgements
 
