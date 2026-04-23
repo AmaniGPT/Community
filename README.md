@@ -12,7 +12,7 @@ algorithms and data structures. The result is an AI engine that:
 1. **Supports personalization** by allowing you to train existing models on your own code and data.
 1. **Protects your privacy** by keeping all code, data, and conversations on your devices or network.
 1. **Gives you complete control** by allowing you to build your own models using your own rules and data.
-1. **Maximizes your productivity** by removing token limits since everything runs on your own hardware.
+1. **Maximizes your productivity by REMOVING TOKEN LIMITS** since everything runs on your own hardware.
 1. **Dramatically reduces costs** by doing all of the above on commodity CPUs that you already use today.
 
 This is the community repo where you can:
@@ -137,11 +137,12 @@ help us build AI that makes our daily lives more productive, enjoyable, and mean
 
 # Thriving
 
-The greatest existential threat facing humanity has been the same since day one: **unsustainable growth**. We as a
-species are growing faster than our environment, infrastructure, schools, hospitals, and courts can keep up with. If
-100 people are born today, they all immediately need food, healthcare, and education, but it takes 20+ years for any
-of them to become farmers, doctors or teachers. By the time they are ready to contribute, millions more people will
-have been born. **The math simply doesn't work**. 
+The greatest existential threat facing humanity has been the same since day one: **unsustainable growth**. 
+
+We as a species are growing faster than our environment, infrastructure, schools, hospitals, and courts can keep up
+with. If 100 people are born today, they all immediately need food, healthcare, and education, but it takes 20+ years
+for any of them to become farmers, doctors or teachers. By the time they are ready to contribute, millions more people
+will have been born. **The math simply doesn't work**. 
 
 The only way we have survived this long is through increasingly advanced forms of **automation**:
 
@@ -159,8 +160,8 @@ and skills**. This is how 100 people born today have immediate access to 100 far
 a planet with billions of people living in cities avoids food riots, disease epidemics, and surging crime rates. **AI
 is how humanity survives and thrives over the next 100 years**.
 
-As the `AmaniGPT` roadmap unfolds, we **plan to engage with people at all levels of society** to gather thoughts, define
-effective policies, and ultimately build a world that our children will be proud to inherit.
+As the `AmaniGPT` roadmap unfolds, we **plan to engage with people at all levels of society** to gather thoughts, help
+leaders define effective policies, and ultimately build a world that our children will be proud to inherit.
 
 Stay tuned for more details on this topic in the coming months, especially regarding **the COCO (Capability, Objectives,
 Constraints, Oversight) blueprint** for building, evaluating, and deploying AI systems that operate with one prime
