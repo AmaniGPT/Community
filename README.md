@@ -181,7 +181,7 @@ providing free, open-source **programming tools and libraries that make it possi
 AI engines** like `AmaniGPT`.
 
 - Thanks to the mysterious team behind the legendary [Visual Studio](https://learn.microsoft.com/visualstudio/debugger/)
-debugger which makes it possible to "look into the mind" of an `AmaniGPT` model with millions of parameters and make sense
+debugger which makes it possible to "look into the mind" of an `AmaniGPT` model with billions of parameters and make sense
 of how it predicts the next token during inference.
 
 **NOTE:** `AmaniGPT` is an independent project and is NOT officially affiliated with or endorsed by the above individuals,
