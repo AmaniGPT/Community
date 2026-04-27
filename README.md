@@ -7,11 +7,11 @@ need for powerful but expensive GPUs**.
 We took familiar transformer concepts (e.g. token embeddings and self-attention) and reimagined them using CPU-only
 algorithms and data structures. The result is an AI engine that:
 
-1. **Generates ANSWERS INSTANTLY** so you never have to wait.
-1. **Runs OFFLINE** in situations where internet connections are not available or allowed.
-1. **Supports PERSONALIZATION** by allowing you to train existing models on your own code and data.
+1. **Generates answers instantly** so you never have to wait.
+1. **Runs offline** in situations where internet connections are not available or allowed.
+1. **Supports personalization** by allowing you to train existing models on your own code and data.
 1. **Protects your PRIVACY and VALUABLE IP** by keeping all code, data, and conversations on your devices or network.
-1. **Gives you COMPLETE CONTROL** by allowing you to build your own models using your own rules and data.
+1. **Gives you complete control** by allowing you to build your own models using your own rules and data.
 1. **Maximizes your productivity by REMOVING TOKEN LIMITS** since everything runs on your own hardware.
 1. **Dramatically REDUCES COSTS** by doing all of the above on commodity CPUs that you already use today.
 
