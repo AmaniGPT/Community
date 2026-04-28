@@ -165,7 +165,9 @@ leaders define effective policies, and ultimately build a world that our childre
 
 Stay tuned for more details on this topic in the coming months, especially regarding **the COCO (Capability, Objectives,
 Constraints, Oversight) blueprint** for building, evaluating, and deploying AI systems that operate with one prime
-directive: **to protect and enhance the dignity of human life**.
+directive: **to protect and enhance the dignity of human life**. In that vein, we will also share our **Marshall Plan
+for AI:** a novel approach to ensuring people at risk of job displacement are able to transition into new jobs so they
+can continue to **thrive in an AI-powered world**.
 
 # Acknowledgements
 
