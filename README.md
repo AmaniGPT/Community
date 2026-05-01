@@ -56,7 +56,7 @@ the next major release. If you ask us for an ETA on a specific request, the answ
 
 This approach allows us to build high-quality software and deliver it on a predictable schedule for everyone. If you
 have a specific deadline, please get in touch with our team to share your requirements and get a quote (this option is
-only available for Enterprise and Sovereign Edition license holders).
+only available for paid license holders).
 
 # Licensing
 
@@ -65,15 +65,16 @@ When it becomes generally available (expected by `November 2026`), it will be of
 
 - **Community Edition**: free for both commercial and non-commercial use on up to `100 CPU cores`.
 - **Enterprise Edition**: paid for use on more than `100 CPU cores`. Includes priority support and maintenance.
-- **Sovereign Edition**: paid for use on unlimited CPU cores. Includes priority support and maintenance.
+- **Hyperscale Edition**: paid for use on `unlimited CPU cores`. Includes priority support and maintenance.
+- **Sovereign Edition**: paid for use on `unlimited CPU cores`. Source code is included for maximum control and security.
 
 **NOTE:** the above is provided for informational purposes only and is subject to change without notice.
 
 # Pre-orders
 
 If your organization is feeling the strain of AI-related capital and operational expenditures, `AmaniGPT` can help. By
-pre-ordering an Enterprise or Sovereign Edition license, you gain access to fast, private, unlimited AI on hardware you
-already own, along with the following benefits:
+pre-ordering a paid license, you gain access to fast, private, unlimited AI on hardware you already own, along with the
+following benefits:
 
 1. **Lock in preferential pricing** before general availability in `November 2026`.
 1. **Secure a perpetual license** to use `AmaniGPT` technology, regardless of any future exclusivity arrangements.
@@ -94,8 +95,8 @@ following areas:
 We would especially love to partner with your organization if:
 
 1. You offer a product in any of the areas listed above.
-1. You have pre-ordered an Enterprise or Sovereign Edition license.
-1. You are building products we already use ourselves.
+1. You have pre-ordered a paid license for `AmaniGPT`.
+1. You are enhancing products we already use ourselves.
 
 As a qualified partner, **you will receive our full support and close collaboration**, since your success directly
 benefits our own work and the broader community.
