@@ -47,14 +47,13 @@ the purchasing process which we always aim to **complete within 30 days or less 
 - Best-effort support is provided free for the Community Edition using public channels and documentation.
 - Private and dedicated support is available for the paid editions at 10% of the license fee per year.
 - Customers can pre-order Enterprise, Hyperscale, or Sovereign licenses by paying 10% of the license fee.
-- The Sovereign Edition **TCO is $1B over 10 years** with unlimited compute, source code, and dedicated support.
+- The Sovereign Edition **TCO is $1B over 10 years** with source code, dedicated support, and unlimited compute.
 
 # AmaniGPT Licensing Guide
 
 ## Overview
 
-This document defines the licensing guide for the `AmaniGPT` AI engine which allows training and inference on commodity
-CPU clusters. `AmaniGPT` is offered in four editions:
+`AmaniGPT` is an AI engine which allows training and inference on commodity CPU clusters. It is offered in four editions:
 
 - Community Edition.
 - Enterprise Edition.
@@ -62,7 +61,7 @@ CPU clusters. `AmaniGPT` is offered in four editions:
 - Sovereign Edition.
 
 All editions provide access to the same basic functionality. The difference is in the maximum amount of CPU cores that
-can be used, the level of support provided, and the degree of customization allowed.
+can be used, the level of support provided, and availability of source code.
 
 ---
 
@@ -182,7 +181,7 @@ The Enterprise Edition requires a paid license. The target audience is Organizat
 
 - Want to deploy at a significant scale exceeding Community Edition limits.
 - Require commercial support and on-going maintenance for smooth production use.
-- Have compliance, privacy, and security requirements that demand customized on-premises AI models.
+- Have **compliance, privacy, and security requirements** that demand customized on-premises AI models.
 
 The Enterprise Edition permits operation of the Software on up to **128 CPU cores of Controlled Compute.**
 
@@ -203,8 +202,8 @@ Annual maintenance and support is available at **10% of the license fee per year
 
 The Hyperscale Edition requires a paid license. The target audience includes but is not limited to:
 
-- Organizations that want to integrate unlimited AI into hyperscale online services that run on millions of CPU cores.
-- Organizations that want to integrate unlimited AI into hardware ecosystems with millions to billions of CPU cores.
+- Organizations that want to integrate unlimited AI into **hyperscale online services** that run on millions of CPU cores.
+- Organizations that want to integrate unlimited AI into **hardware ecosystems with millions to billions of CPU cores**.
 
 The Hyperscale Edition permits operation of the Software on **Unlimited Controlled Compute.**
 
@@ -225,15 +224,15 @@ The Hyperscale Edition allows Organizations to:
 
 The Sovereign Edition requires a paid license. The target audience includes but is not limited to:
 
-- National and governmental institutions requiring full autonomy, privacy and control over their AI infrastructure.
-- Organizations that want deep integration into mission-critical products and services with reduced vendor dependencies.
-- Organizations with non-negotiable security and safety requirements where source access allows auditing and verification.
+- National and governmental institutions requiring **full autonomy, privacy and control** over their AI infrastructure.
+- Organizations that want deep **integration into mission-critical products and services** with reduced vendor dependencies.
+- Organizations with **non-negotiable security and safety requirements** where source access allows auditing and verification.
 
 The Sovereign Edition **includes source code access** under the following terms:
 
-1. Source code access is provided **strictly for internal use** and cannot be sublicensed, leased, sold or redistributed.
+1. Source code is provided **strictly for internal use** and cannot be sublicensed, leased, sold or redistributed.
 1. Source code is **only provided for the in-process runtime library ("DLL")** which is the core component of the Software.
-1. Source code is **NOT transferable** under any circumstances. Changes in control require acquisition of a new license.
+1. Source code is **NOT transferable under any circumstances**. Changes in control require acquisition of a new license.
 1. Licensees must **designate 3 to 5 named personnel** who will receive training to ensure business process continuity.
 1. Licensees will receive **quarterly snapshots of the source code** and are responsible for merging updates as needed.
 1. Licensees will receive the **first source code snapshot upon GA** and after full payment of the license fee.
@@ -269,7 +268,7 @@ Annual maintenance and support is available at **10% of the license fee per year
 
 1. Prior to GA, customers can pre-order Enterprise, Hyperscale, or Sovereign licenses by paying 10% of the license fee.
 1. Pre-ordering guarantees access to the respective license post-GA at the currently stated terms and price.
-1. Pre-ordering is safe even if GA is delayed since licenses are perpetual and included support only starts after GA.
+1. Pre-ordering is safe even if GA is delayed since licenses are perpetual and post-paid support only starts after GA.
 1. The pre-order fee is non-refundable but will be credited towards the full license fee for up to 30 days after GA.
 
 ## Maintenance Terms & Conditions
