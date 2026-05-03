@@ -55,10 +55,10 @@ the purchasing process which we always aim to **complete within 30 days or less 
 
 `AmaniGPT` is an AI engine which allows training and inference on commodity CPU clusters. It is offered in four editions:
 
-- Community Edition.
-- Enterprise Edition.
-- Hyperscale Edition.
-- Sovereign Edition.
+1. Community Edition.
+1. Enterprise Edition.
+1. Hyperscale Edition.
+1. Sovereign Edition.
 
 All editions provide access to the same basic functionality. The difference is in the maximum amount of CPU cores that
 can be used, the level of support provided, and availability of source code.
@@ -67,62 +67,27 @@ can be used, the level of support provided, and availability of source code.
 
 ## Definitions
 
-### Software
+1. **Software** means all standalone (EXE) and in-process (DLL) binaries, along with any official documentation, SDKs,
+and related materials provided to the licensee as part of `AmaniGPT`.
 
-**"Software"** refers collectively to:
+1. **Organization** means any legal entity, person, or team of individuals that uses the Software. It includes but is not
+limited to businesses, academic institutions, government agencies, non-profits, individual developers, and hobbyists.
 
-- The standalone AI engine executable ("EXE") used for training and inference via HTTP or similar interfaces.
-- The in-process AI engine library ("DLL") provided as a dynamically linked library or equivalent.
-- Any official documentation, software development kits, datasets, or similar materials provided to the licensee.
+1. **Application** means any product, service, system, or project that incorporates or depends on the Software for AI
+training, inference, or related purposes. This applies regardless of whether the Application is developed internally
+by the Organization, obtained from a third party, or made available to third parties commercially or non-commercially.
 
-### Organization
+1. **Controlled Compute** means any computing resources where an Organization can install and run Applications. This
+includes servers, desktops, mobile devices, network devices, virtual machines, containers or similar resources. Control
+applies regardless of whether the resources are made, owned, bought, sold, leased, rented by, to or from the Organization
+and is aggregated across all environments and affiliated entities under common ownership or control of the Organization.
 
-**"Organization"** refers to any legal entity, company, institution, or individual that uses the Software. This includes
-but is not limited to:
-
-- Corporations, startups, and small businesses.
-- Academic institutions, research labs, and non-profits.
-- Government agencies and public sector entities.
-- Individual developers and hobbyists.
-
-### Application
-
-**Application** refers to any product or service that incorporates or depends on the Software. This includes but is not
-limited to:
-
-- Internal tools and systems used by the Organization.
-- Commercial products or services offered to external customers that utilize the Software as a component.
-- Products or services developed by third parties that incorporate the Software and are used by the Organization.
-- Research projects or academic work that involve training or inference using the Software.
-- Any other use case where the Software is executed by the Organization for training, inference, or related purposes.
-
-### Controlled Compute
-
-**"Controlled Compute"** refers to any computing resources that an Organization owns, leases, rents, pays for, or
-otherwise has the ability and authority to deploy, monitor, and or operate Applications on. This includes but is
-not limited to:
-
-- On-premises servers, workstations and devices such as mobile phones, tablets, routers, etc.
-- Devices made or sold by the Organization where the Organization can pre-install, manage or update Applications.
-- Virtual machines and containers provisioned and hosted on cloud or colocated infrastructure.
-- Dedicated or shared compute clusters under the Organization’s administrative control.
-
-Controlled Compute is aggregated across all environments, geographic regions, and affiliated entities under common
-ownership or control.
-
-Controlled Compute does NOT include third-party software-as-a-service environments where the Organization has no ability
-to deploy or manage Applications directly.
-
-### CPU Core
-
-**"CPU Core"** refers to a physical or virtual processing unit capable of independently executing Applications. CPU core
+1. **CPU Core** means a physical or virtual processing unit capable of independently executing Applications. CPU core
 count is determined as the maximum value reported by the runtime environment (e.g. `Environment.ProcessorCount` in .NET)
 on all systems where the Software is installed or stored (even if not actively executing).
 
-### General Availability (GA)
-
-**"General Availability (GA)"** refers to the date when the Software is officially released and made available for
-download and purchase by the general public. The expected GA date is `November 2026` but is subject to change based on
+1. **General Availability (GA)** means the date when the Software is officially released and made available for download
+and purchase by the general public. The expected GA date is `November 2026` but is subject to change based on
 development progress and market conditions.
 
 ---
@@ -231,7 +196,7 @@ The Sovereign Edition requires a paid license. The target audience includes but 
 The Sovereign Edition **includes source code access** under the following terms:
 
 1. Source code is provided **strictly for internal use** and cannot be sublicensed, leased, sold or redistributed.
-1. Source code is **only provided for the in-process runtime library ("DLL")** which is the core component of the Software.
+1. Source code is **only provided for the in-process library (DLL)** which is the core component of the Software.
 1. Source code is **NOT transferable under any circumstances**. Changes in control require acquisition of a new license.
 1. Licensees must **designate 3 to 5 named personnel** who will receive training to ensure business process continuity.
 1. Licensees will receive **quarterly snapshots of the source code** and are responsible for merging updates as needed.
@@ -246,6 +211,11 @@ The Sovereign Edition permits operation of the Software on **Unlimited Controlle
 The Sovereign Edition is offered for a **one-time license fee of USD $500M (five hundred million USD).**
 
 Annual maintenance and support is available at **10% of the license fee per year (i.e. $50M/year).**
+
+**IMPORTANT:** due to the sensitive nature of source code access and the long-term strategic relationship required for
+the Sovereign Edition, **the number of licenses issued will be limited and granted on a case-by-case basis**. There are
+no eligibility requirements for the Hyperscale Edition beyond the ability to pay the license and maintenance fees, so
+most Organizations can still enjoy the benefits of unlimited AI even if they do not qualify for the Sovereign Edition.
 
 ---
 
