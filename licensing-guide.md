@@ -10,25 +10,25 @@ We are an engineering-led company which means `AmaniGPT` is bought not sold:
 
 All `AmaniGPT` licenses offer the following guarantees across all editions:
 
-- **No metering**: usage is not tracked or billed based on consumption.
-- **No telemetry**: `AmaniGPT` does not transmit usage or system data.
-- **No revenue sharing**: you retain 100% of your revenue from applications built with `AmaniGPT`.
-- **No ownership claim**: you retain full ownership of all models and outputs you create using `AmaniGPT`.
-- **No activation**: `AmaniGPT` installs and runs fully offline with no "phone home" requirements.
-- **No audits**: we do not perform routine audits or licensing compliance inspections.
+1. **No metering**: usage is not tracked or billed based on consumption.
+1. **No telemetry**: `AmaniGPT` does not transmit usage or system data.
+1. **No revenue sharing**: you retain 100% of your revenue from applications built with `AmaniGPT`.
+1. **No ownership claim**: you retain full ownership of all models and outputs you create using `AmaniGPT`.
+1. **No activation**: `AmaniGPT` installs and runs fully offline with no "phone home" requirements.
+1. **No audits**: we do not perform routine audits or licensing compliance inspections.
 
 If that resonates with you and you are **feeling the strain of AI-related capital and operational expenditures**, then
 we'd love to work with you!
 
 Make sure you have reviewed our [README](README.md) to understand what `AmaniGPT` is and why it can save you money.
 
-Review the rest of this licensing guide so you can make a purchasing decision at your own pace.  When you are satisfied
-that `AmaniGPT` is a good fit and are ready to start the purchasing process, get in touch via: `start@amanigpt.com`.
+Review the rest of this licensing guide so you can **make a purchasing decision at your own pace**. 
+
+When you are satisfied that `AmaniGPT` is a good fit and are ready to start the purchasing process, please get in touch
+via: `start@amanigpt.com`
 
 **IMPORTANT**: this guide is provided for **informational purposes only**. Final license terms will be discussed during
-the purchasing process which we always aim to **complete within 30 days or less from first contact.** We want to offer
-the most refreshing licensing experience in the industry and welcome your feedback so we can continue to improve this
-guide as we approach general availability (GA). Please email suggestions and questions to: `licensing@amanigpt.com`.
+the purchasing process which we always aim to **complete within 30 days or less from first contact.**
 
 # Licensing At A Glance
 
@@ -42,9 +42,9 @@ guide as we approach general availability (GA). Please email suggestions and que
 | Up to $200B/year | Sovereign    | $500M lifetime | Unlimited     | Unlimited  | Yes                |
 
 **NOTES:**
-- `AmaniGPT` runs on your own hardware using standard CPUs so there are no token limits.
+- **`AmaniGPT` runs on your own hardware using standard CPUs so there are no token limits.**
 - Multiple Enterprise licenses can be purchased as needed, each granting another 128 CPU cores.
-- Best effort support is provided free for the Community Edition using public channels and documentation.
+- Best-effort support is provided free for the Community Edition using public channels and documentation.
 - Private and dedicated support is available for the paid editions at 10% of the license fee per year.
 - Customers can pre-order Enterprise, Hyperscale, or Sovereign licenses by paying 10% of the license fee.
 - The Sovereign Edition **TCO is $1B over 10 years** with unlimited compute, source code, and dedicated support.
@@ -149,7 +149,7 @@ Example scenarios:
 | Big To Big     | A 500-core cluster               | A 500-core cluster       | Both developer and user  |
 | Small To Small | A laptop (8 cores)               | A laptop/phone (8 cores) | Neither (free for both)  |
 
-**NOTE:** the words "Developer" and "User" are for illustration and fall under the definition of "Organization".
+**NOTE:** the words **Developer** and **User** are for illustration and fall under the definition of **Organization**.
 
 ---
 
@@ -297,4 +297,10 @@ Enterprise, Hyperscale, and Sovereign Editions:
    - Sovereign Edition: 10 year commitment (i.e. $500M total over 10 years).
 1. Maintenance and support does not cover issues caused by modifications to the source code for the Sovereign Edition.
 1. If payment lapses for more than 6 months, a new license must be purchased at the current price to resume support.
+
+## Feedback
+
+We want to offer **the most refreshing licensing experience in the industry** and welcome your feedback so we can continue
+to improve this guide as we approach general availability (GA). Please email any suggestions and questions you may have
+to: `licensing@amanigpt.com`
 
