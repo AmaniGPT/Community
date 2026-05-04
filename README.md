@@ -1,10 +1,10 @@
 
 # Overview
 
-`AmaniGPT` is an **experimental AI engine** that draws on established AI research (e.g. work on efficient attention,
-quantization, and retrieval-augmented methods) then adapts it for **CPU-only operation**.
+`AmaniGPT` is an **experimental AI engine** inspired by the `Attention Is All You Need` paper. That paper describes what
+attention needs to accomplish. Our job was finding a way to make that **work fast enough on ordinary CPUs**.
 
-While it's still early days, the result is an AI engine that:
+While it is still early days, we are building an AI engine that:
 
 1. **Generates answers instantly** so you never have to wait.
 1. **Runs offline** in situations where internet connections are not available or allowed.
@@ -18,7 +18,7 @@ This is the community repo where you can:
 
 1. Read the official guide on [quickly trying out AmaniGPT](owt-use.md) with a prebuilt model.
 1. Read the official guide on [training your own AmaniGPT model](owt-train.md) from scratch.
-1. Read the official guide on [licensing AmaniGPT](licensing-guide.md) for production use.
+1. Read the official guide on [licensing AmaniGPT](licensing-guide.md) when it becomes generally available.
 1. Provide feedback and ask questions using [GitHub Issues](https://github.com/AmaniGPT/Community/issues).
 
 # Benchmarks
