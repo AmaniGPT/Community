@@ -10,9 +10,9 @@ While it is still early days, we are building an AI engine that:
 1. **Runs offline** in situations where internet connections are not available or allowed.
 1. **Supports personalization** by allowing you to train existing models on your own code and data.
 1. **Protects your PRIVACY and VALUABLE IP** by keeping all code, data, and conversations on your devices or network.
-1. **Gives you complete control** by allowing you to build your own models using your own rules and data.
+1. **Gives you complete control** by allowing you to build your own models using your own rules, code, and data.
 1. **Maximizes your productivity by REMOVING TOKEN LIMITS** since everything runs on your own hardware.
-1. **Dramatically REDUCES COSTS** by doing all of the above on commodity CPUs that you already use today.
+1. **Dramatically REDUCES COSTS** by doing all of the above on ordinary CPUs that you already use today.
 
 This is the community repo where you can:
 
@@ -60,8 +60,8 @@ only available for paid license holders).
 
 # Licensing
 
-`AmaniGPT` is currently (as of `April 2026`) in preview and **can be used for non-production evaluation purposes only**.
-When it becomes generally available (expected by `November 2026`), it will be offered under the following editions:
+`AmaniGPT` is currently in preview and **can be used for non-production evaluation purposes only**. When it becomes
+generally available (expected by `November 2026`), it will be offered under the following editions:
 
 - **Community Edition**: free for both commercial and non-commercial use on up to `32 CPU cores`.
 - **Enterprise Edition**: paid for use on more than `32 CPU cores`. Includes priority support and maintenance.
@@ -103,13 +103,13 @@ benefits our own work and the broader community.
 
 # Roadmap
 
-`AmaniGPT` is part of our vision to **make AI more accessible and useful** over the next 10 years, in multiple phases:
+`AmaniGPT` is part of our vision to **make AI more sustainable and useful** over the next 10 years, in multiple phases:
 
 - **Phase 0 (Preview)**: we are here now. The goal is to finalize and validate CPU-only AI as a more reliable and
   sustainable alternative to GPU-heavy AI.
 
 - **Phase 1 (General Availability)**: expected by `November 2026`. `AmaniGPT` should offer **fast, offline, unlimited,
-  private AI on commodity hardware**. The marginal cost of training and inference should be close to zero. Intelligence
+  private AI on ordinary hardware**. The marginal cost of training and inference should be close to zero. Intelligence
   can be everywhere at once, simplifying how we live, move, produce, and trade. **Everything can _think_: from houses
   to cities, cars to planes, farms to factories, businesses to entire markets**. Everything is your agent. Everything
   works for you.
@@ -134,7 +134,7 @@ it is natively multimodal which should be useful when building symbiotes that ca
 
 The mission over the next 10 years is to **validate** the architecture, **optimize** it for speed and reliability, and
 **build an accessible ecosystem** so everyone can contribute. We welcome you to join us on this ambitious journey and
-help us build AI that makes our daily lives more productive, enjoyable, and meaningful.
+help us build AI that makes our daily lives more productive, enjoyable, and meaningful!
 
 # Thriving
 
@@ -166,9 +166,10 @@ leaders define effective policies, and ultimately build a world that our childre
 
 Stay tuned for more details on this topic in the coming months, especially regarding **the COCO (Capability, Objectives,
 Constraints, Oversight) blueprint** for building, evaluating, and deploying AI systems that operate with one prime
-directive: **to protect and enhance the dignity of human life**. In that vein, we will also share our **Marshall Plan
-for AI:** a novel approach to ensuring people at risk of job displacement are able to transition into new jobs so they
-can continue to **thrive in an AI-powered world**.
+directive: **to protect and enhance the dignity of human life**.
+
+In the same vein, we will also share our **Marshall Plan for AI:** a novel approach to ensuring people at risk of job
+displacement are able to transition into new jobs so they can continue to **thrive in an AI-powered world**.
 
 # Acknowledgements
 

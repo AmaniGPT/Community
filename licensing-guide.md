@@ -42,7 +42,7 @@ the purchasing process which we always aim to **complete within 30 days or less 
 | Up to $200B/year | Sovereign    | $500M lifetime | Unlimited     | Unlimited  | Yes                |
 
 **NOTES:**
-- **`AmaniGPT` runs on your own hardware using standard CPUs so there are no token limits.**
+- **`AmaniGPT` runs on your own hardware using ordinary CPUs so there are no token limits.**
 - Multiple Enterprise licenses can be purchased as needed, each granting another 128 CPU cores.
 - Best-effort support is provided free for the Community Edition using public channels and documentation.
 - Private and dedicated support is available for the paid editions at 10% of the license fee per year.
@@ -53,7 +53,7 @@ the purchasing process which we always aim to **complete within 30 days or less 
 
 ## Overview
 
-`AmaniGPT` is an AI engine which allows training and inference on commodity CPU clusters. It is offered in four editions:
+`AmaniGPT` is an AI engine which allows training and inference on ordinary CPUs. It is offered in four editions:
 
 1. Community Edition.
 1. Enterprise Edition.
@@ -78,9 +78,9 @@ training, inference, or related purposes. This applies regardless of whether the
 by the Organization, obtained from a third party, or made available to third parties commercially or non-commercially.
 
 1. **Controlled Compute** means any computing resources where an Organization can install and run Applications. This
-includes servers, desktops, mobile devices, network devices, virtual machines, containers or similar resources. Control
-applies regardless of whether the resources are made, owned, bought, sold, leased, rented by, to or from the Organization
-and is aggregated across all environments and affiliated entities under common ownership or control of the Organization.
+includes servers, desktops, mobile devices, network devices, virtual machines, containers, or similar resources. Control
+is determined solely by the "install and run" test, so it applies to any resource regardless of ownership, access method,
+deployment environment, financial considerations, geographic location, or corporate structure.
 
 1. **CPU Core** means a physical or virtual processing unit capable of independently executing Applications. CPU core
 count is determined as the maximum value reported by the runtime environment (e.g. `Environment.ProcessorCount` in .NET)
@@ -178,7 +178,7 @@ Annual maintenance and support is available at **10% of the license fee per year
 
 The Hyperscale Edition allows Organizations to:
 
-1. **Eliminate up to 99% of current AI-related costs** by using commodity CPU clusters.
+1. **Eliminate up to 99% of current AI-related costs** by using ordinary CPU clusters.
 1. **Restore shareholder confidence** through improved cash flow and profitability.
 1. **Rebuild employee morale** through cost-effective AI that empowers rather than replaces them.
 1. **Expand market leadership** through new products and services powered by unlimited AI.
