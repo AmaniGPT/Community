@@ -94,17 +94,8 @@ development progress and market conditions.
 
 ## Licensing Responsibility
 
-Each Organization is independently responsible for obtaining a license based on its own use of the Software.
-
-An Organization must have an appropriate paid license if it develops and or operates any Application on Controlled
-Compute exceeding the limits of the Community Edition, regardless of whether:
-
-- The Application was developed internally.
-- The Application was obtained from a third party.
-- The Application is used for internal purposes.
-- The Application is provided as a product or service to third parties.
-
-Example scenarios:
+Each Organization is independently responsible for obtaining an appropriate paid license if it develops and or operates
+any Application on Controlled Compute exceeding the limits of the Community Edition. Example scenarios:
 
 | Scenario       | Developer creates Application on | User runs Application on | Who needs a paid license |
 |----------------|----------------------------------|--------------------------|--------------------------|
