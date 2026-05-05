@@ -130,7 +130,8 @@ For context, 32 CPU cores can be achieved with:
 - A cluster of 8 medium VM instances in the cloud with 4 cores each.
 - A cluster of 16 small VM instances in the cloud with 2 cores each.
 
-An Organization that operates the Software on more than 32 CPU cores of Controlled Compute must obtain a paid license.
+An Organization that develops or operates Applications on more than 32 CPU cores of Controlled Compute must obtain a
+paid license.
 
 ---
 
