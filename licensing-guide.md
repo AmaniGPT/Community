@@ -78,9 +78,9 @@ training, inference, or related purposes. This applies regardless of whether the
 by the Organization, obtained from a third party, or made available to third parties commercially or non-commercially.
 
 1. **Controlled Compute** means any computing resources where an Organization can install and run Applications. This
-includes servers, desktops, mobile devices, network devices, virtual machines, containers, or similar resources. Control
-is determined solely by the "install and run" test, so it applies to any resource regardless of ownership, access method,
-deployment environment, financial considerations, geographic location, or corporate structure.
+includes servers, desktops, mobile devices, gaming consoles, IoT devices, network devices, virtual machines, containers,
+or similar resources. Control is determined solely by the "install and run" test, so it applies to any resource regardless
+of ownership, access method, deployment environment, financial considerations, geographic location, or corporate structure.
 
 1. **CPU Core** means a physical or virtual processing unit capable of independently executing Applications. CPU core
 count is determined as the maximum value reported by the runtime environment (e.g. `Environment.ProcessorCount` in .NET)
