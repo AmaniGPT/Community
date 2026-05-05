@@ -122,7 +122,7 @@ The Community Edition is available free of charge. The target audience includes 
 - Startups and small Organizations.
 - Evaluation and experimentation.
 
-The Community Edition permits operation of the Software on up to **32 CPU cores of Controlled Compute.**
+The Community Edition permits development and operation of Applications on up to **32 CPU cores of Controlled Compute.**
 
 For context, 32 CPU cores can be achieved with:
 
@@ -142,7 +142,7 @@ The Enterprise Edition requires a paid license. The target audience is Organizat
 - Require commercial support and on-going maintenance for smooth production use.
 - Have **compliance, privacy, and security requirements** that demand customized on-premises AI models.
 
-The Enterprise Edition permits operation of the Software on up to **128 CPU cores of Controlled Compute.**
+The Enterprise Edition permits development and operation of Applications on up to **128 CPU cores of Controlled Compute.**
 
 For context, 128 CPU cores can be achieved with:
 
@@ -164,7 +164,7 @@ The Hyperscale Edition requires a paid license. The target audience includes but
 - Organizations that want to integrate unlimited AI into **hyperscale online services** that run on millions of CPU cores.
 - Organizations that want to integrate unlimited AI into **hardware ecosystems with millions to billions of CPU cores**.
 
-The Hyperscale Edition permits operation of the Software on **Unlimited Controlled Compute.**
+The Hyperscale Edition permits development and operation of Applications on **Unlimited Controlled Compute.**
 
 The Hyperscale Edition is offered for a **one-time license fee of USD $100M (one hundred million USD).**
 
@@ -200,7 +200,7 @@ The Sovereign Edition **includes source code access** under the following terms:
 1. Licensees are permitted to **develop hardware accelerators** under separate terms that will be negotiated as needed.
 1. Licensees are **NOT permitted to use the source code to build competing products or services** for use by third parties.
 
-The Sovereign Edition permits operation of the Software on **Unlimited Controlled Compute.**
+The Sovereign Edition permits development and operation of Applications on **Unlimited Controlled Compute.**
 
 The Sovereign Edition is offered for a **one-time license fee of USD $500M (five hundred million USD).**
 
