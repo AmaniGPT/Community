@@ -63,10 +63,10 @@ only available for paid license holders).
 `AmaniGPT` is currently in preview and **can be used for non-production evaluation purposes only**. When it becomes
 generally available (expected by `November 2026`), it will be offered under the following editions:
 
-- **Community Edition**: free for both commercial and non-commercial use on up to `32 CPU cores`.
-- **Enterprise Edition**: paid for use on more than `32 CPU cores`. Includes priority support and maintenance.
-- **Hyperscale Edition**: paid for use on `unlimited CPU cores`. Includes priority support and maintenance.
-- **Sovereign Edition**: paid for use on `unlimited CPU cores`. Includes source code for maximum control and security.
+1. **Community Edition**: free for both commercial and non-commercial use on up to `32 CPU cores`.
+1. **Enterprise Edition**: paid for use on more than `32 CPU cores`. Includes priority support and maintenance.
+1. **Hyperscale Edition**: paid for use on `unlimited CPU cores`. Includes priority support and maintenance.
+1. **Sovereign Edition**: paid for use on `unlimited CPU cores`. Includes source code for maximum control and security.
 
 For more information and up-to-date details please see our [licensing guide](licensing-guide.md).
 

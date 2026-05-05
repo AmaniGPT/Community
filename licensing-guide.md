@@ -38,7 +38,7 @@ the purchasing process which we always aim to **complete within 30 days or less 
 | -----------------| ------------ | ---------------| ------------- | ---------- | ------------------ |
 | Up to $200/month | Community    | Free           | 32            | Unlimited  | No                 |
 | Up to $10M/year  | Enterprise   | $1M lifetime   | 128+          | Unlimited  | No                 |
-| Up to $200B/year | Hyperscale   | $100M lifetime | Unlimited     | Unlimited  | No                 |
+| Up to $50B/year  | Hyperscale   | $100M lifetime | Unlimited     | Unlimited  | No                 |
 | Up to $200B/year | Sovereign    | $500M lifetime | Unlimited     | Unlimited  | Yes                |
 
 **NOTES:**
@@ -68,7 +68,8 @@ can be used, the level of support provided, and availability of source code.
 ## Definitions
 
 1. **Software** means all standalone (EXE) and in-process (DLL) binaries, along with any official documentation, SDKs,
-and related materials provided to the licensee as part of `AmaniGPT`.
+and related materials provided to the licensee as part of `AmaniGPT`. Source code used to build the Software does NOT
+form part of the Software and is governed by the `Source Access Terms & Conditions` section of this guide.
 
 1. **Organization** means any legal entity, person, or team of individuals that uses the Software. It includes but is not
 limited to businesses, academic institutions, government agencies, non-profits, individual developers, and hobbyists.
@@ -188,18 +189,7 @@ The Sovereign Edition requires a paid license. The target audience includes but 
 - Organizations that want deep **integration into mission-critical products and services** with reduced vendor dependencies.
 - Organizations with **non-negotiable security and safety requirements** where source access allows auditing and verification.
 
-The Sovereign Edition **includes source code access** under the following terms:
-
-1. Source code is provided **strictly for internal use** and cannot be sublicensed, leased, sold or redistributed.
-1. Source code is **only provided for the in-process library (DLL)** which is the core component of the Software.
-1. Source code is **NOT transferable under any circumstances**. Changes in control require acquisition of a new license.
-1. Licensees must **designate 3 to 5 named personnel** who will receive training to ensure business process continuity.
-1. Licensees will receive **quarterly snapshots of the source code** and are responsible for merging updates as needed.
-1. Licensees will receive the **first source code snapshot upon GA** and after full payment of the license fee.
-1. Licensees have **perpetual rights to source snapshots**. New snapshots require annual maintenance and support payments.
-1. Licensees are permitted to **port the source code to other programming languages** already used by their core offerings.
-1. Licensees are permitted to **develop hardware accelerators** under separate terms that will be negotiated as needed.
-1. Licensees are **NOT permitted to use the source code to build competing products or services** for use by third parties.
+The Sovereign Edition **includes source code access** as described in the `Source Access Terms & Conditions` section.
 
 The Sovereign Edition permits development and operation of Applications on **Unlimited Controlled Compute.**
 
@@ -225,8 +215,7 @@ most Organizations can still enjoy the benefits of unlimited AI even if they do 
 1. The license is perpetual, non-exclusive, non-transferable and royalty-free, subject to the terms of this agreement.
 1. The license conveys no equity, acquisition, IP transfer, governance/information rights or employment arrangements.
 1. The license is immediately suspended if licensee initiates legal action and remains suspended until case resolution.
-1. Licensee must commit to protecting the dignity and value of human life when building advanced AI using the Software.
-1. Issued licenses are irrevocable, but ongoing maintenance and support is conditional on compliance with the license.
+1. The license requires a written commitment to protecting the dignity and value of human life when using the Software.
 1. Using any edition of the Software beyond its limits is a violation of your license and may result in legal action.
 
 ## Pre-ordering Terms & Conditions
@@ -235,6 +224,7 @@ most Organizations can still enjoy the benefits of unlimited AI even if they do 
 1. Pre-ordering guarantees access to the respective license post-GA at the currently stated terms and price.
 1. Pre-ordering is safe even if GA is delayed since licenses are perpetual and post-paid support only starts after GA.
 1. The pre-order fee is non-refundable but will be credited towards the full license fee for up to 30 days after GA.
+1. Upon GA, pre-order customers are expected but not required to pay the remaining license fee and obtain their license.
 
 ## Maintenance Terms & Conditions
 
@@ -255,12 +245,54 @@ Enterprise, Hyperscale, and Sovereign Editions:
    - Enterprise Edition: **same day response time**.
    - Hyperscale Edition: **1 hour response time**.
    - Sovereign Edition: **30 minute response time**.
-1. Maintenance and support requires a minimum commitment with autorenewal unless cancelled 3 months prior:
+1. Maintenance and support requires a minimum commitment with automatic renewal unless cancelled 3 months prior:
    - Enterprise Edition: **3 year commitment (i.e. $300K total over 3 years)**.
    - Hyperscale Edition: **5 year commitment (i.e. $50M total over 5 years)**.
    - Sovereign Edition: **10 year commitment (i.e. $500M total over 10 years)**.
 1. Maintenance and support does not cover issues caused by modifications to the source code for the Sovereign Edition.
 1. If payment lapses for more than 6 months, a new license must be purchased at the current price to resume support.
+
+**NOTE:** for all editions, maintenance and support is conditional on continued compliance with the terms of the license.
+
+## Source Access Terms & Conditions
+
+1. Source code is provided **strictly for internal use** and cannot be sublicensed, leased, sold, or redistributed in
+any form. For the purposes of this section, **internal use** refers to use solely within the named licensee Organization
+as it existed at the time of contract signing, and does not extend to subsidiaries, affiliates, parent companies, or any
+other entities regardless of their relationship to the licensee.
+
+1. Source code is **only provided for the in-process library (DLL)**, which is the core component of the Software that
+enables training and inference on ordinary CPUs. Source code for the standalone executable (EXE) and other materials
+provided as part of the Software is NOT included in the source code provided to licensees.
+
+1. Source code is **NOT transferable under any circumstances**, including through corporate transactions such as mergers,
+acquisitions, divestitures, or changes in ownership. Any Organization that needs source code access but was not party to
+the original license agreement must acquire a new license for its own use.
+
+1. Licensees must **designate up to 5 named personnel** who will receive training to ensure business process continuity.
+Named personnel will be selected, approved, and replaced by mutual written agreement between us and the licensee. Named
+personnel are bound by the same terms and conditions as the licensee Organization during the term of the license, and
+for a period of 10 years after termination or expiration of the license.
+
+1. Licensees who **want source code access without the complexity and responsibility of designating named personnel, can
+opt to hold the source code in escrow** under the custody of a mutually agreed-upon third party, then let us handle the
+ongoing maintenance and support of the source code as part of routine maintenance and support of the Software for all
+licensees.
+
+1. Licensees will receive **quarterly snapshots of the source code** and are responsible for merging updates as needed.
+The **first source code snapshot will be provided upon GA** and after full payment of the license fee.
+
+1. Licensees have **perpetual rights to source snapshots already received**, provided they remain in compliance with the
+terms of the license. Delivery of new snapshots requires continued annual maintenance and support payments. 
+
+1. Licensees are **NOT permitted to use the source code and or Software to build products or services that compete with
+the Software's core functionality of AI training and inference on ordinary CPUs**. This condition applies regardless of
+whether the competing products or services are intended for internal use or for use by third parties.
+
+1. Licensees are permitted to **create derivative works of the source code by porting it to other programming languages
+or creating hardware accelerators**. All derivative works are subject to the same terms and conditions as the original
+source code unless otherwise mutually agreed-upon in writing (e.g. to allow co-development and commercialization of
+derivative works that add significant value to the broader `AmaniGPT` ecosystem).
 
 ## Feedback
 
