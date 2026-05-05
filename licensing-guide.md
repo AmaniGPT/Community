@@ -90,6 +90,9 @@ on all systems where the Software is installed or stored (even if not actively e
 and purchase by the general public. The expected GA date is `November 2026` but is subject to change based on
 development progress and market conditions.
 
+**NOTE:** plural forms of the above terms (e.g. "Organizations", "Applications", "CPU Cores") shall retain the same
+meaning as their singular forms for the purposes of this licensing guide.
+
 ---
 
 ## Licensing Responsibility
