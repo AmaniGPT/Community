@@ -231,7 +231,7 @@ most Organizations can still enjoy the benefits of unlimited AI even if they do 
 
 ## Pre-ordering Terms & Conditions
 
-1. Prior to GA, customers can pre-order Enterprise, Hyperscale, or Sovereign licenses by paying 10% of the license fee.
+1. Prior to GA, Organizations can pre-order licenses for paid editions by paying 10% of the respective license fee.
 1. Pre-ordering guarantees access to the respective license post-GA at the currently stated terms and price.
 1. Pre-ordering is safe even if GA is delayed since licenses are perpetual and post-paid support only starts after GA.
 1. The pre-order fee is non-refundable but will be credited towards the full license fee for up to 30 days after GA.
@@ -247,24 +247,24 @@ Community Edition:
 Enterprise, Hyperscale, and Sovereign Editions:
 
 1. Maintenance fees are post-paid annually from the effective start date of the license.
-1. If you purchase multiple Enterprise licenses, the annual maintenance fee is 10% of the total license fees to date.
+1. If you purchase multiple Enterprise licenses, the annual maintenance fee is 10% of the total license fees paid to date.
 1. Maintenance and support is provided for 3 of the most recent major versions of the Software.
 1. Private channels for dedicated technical support are available for issues related to the Software.
 1. Private guidance on integration and deployment best practices is provided to ensure successful adoption.
 1. Guaranteed response times for production issues caused directly by the Software are provided:
-   - Enterprise Edition: same day response time.
-   - Hyperscale Edition: 1 hour response time.
-   - Sovereign Edition: 30 minute response time.
+   - Enterprise Edition: **same day response time**.
+   - Hyperscale Edition: **1 hour response time**.
+   - Sovereign Edition: **30 minute response time**.
 1. Maintenance and support requires a minimum commitment with autorenewal unless cancelled 3 months prior:
-   - Enterprise Edition: 3 year commitment (i.e. $300K total over 3 years).
-   - Hyperscale Edition: 5 year commitment (i.e. $50M total over 5 years).
-   - Sovereign Edition: 10 year commitment (i.e. $500M total over 10 years).
+   - Enterprise Edition: **3 year commitment (i.e. $300K total over 3 years)**.
+   - Hyperscale Edition: **5 year commitment (i.e. $50M total over 5 years)**.
+   - Sovereign Edition: **10 year commitment (i.e. $500M total over 10 years)**.
 1. Maintenance and support does not cover issues caused by modifications to the source code for the Sovereign Edition.
 1. If payment lapses for more than 6 months, a new license must be purchased at the current price to resume support.
 
 ## Feedback
 
 We want to offer **the most refreshing licensing experience in the industry** and welcome your feedback so we can continue
-to improve this guide as we approach general availability (GA). Please email any suggestions and questions you may have
-to: `licensing@amanigpt.com`
+to improve this guide as we approach general availability. Please email any suggestions and questions you may have to:
+`licensing@amanigpt.com`
 
