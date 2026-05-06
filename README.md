@@ -68,7 +68,7 @@ generally available (expected by `November 2026`), it will be offered under the 
 1. **Hyperscale Edition**: paid for use on `unlimited CPU cores`. Includes priority support and maintenance.
 1. **Sovereign Edition**: paid for use on `unlimited CPU cores`. Includes source code for maximum control and security.
 
-For more information and up-to-date details please see our [licensing guide](licensing-guide.md).
+For more information and up-to-date details, please see our [licensing guide](licensing-guide.md).
 
 # Pre-orders
 
@@ -81,7 +81,7 @@ following benefits:
 1. **Influence the roadmap** by working directly with our team to prioritize features relevant to your core needs.
 1. **Ensure successful adoption** by evaluating `AmaniGPT` with the help of our team before you make a full commitment.
 
-For more information, please contact: **eric@amanigpt.com**
+For more information, please review our [licensing guide](licensing-guide.md) then contact: `eric@amnigpt.com`.
 
 # Partnerships
 
