@@ -47,7 +47,7 @@ the purchasing process which we always aim to **complete within 30 days or less 
 - Best-effort support is provided free for the Community Edition using public channels and documentation.
 - Private and dedicated support is available for the paid editions at 10% of the license fee per year.
 - Customers can pre-order Enterprise, Hyperscale, or Sovereign licenses by paying 10% of the license fee.
-- The Sovereign Edition **TCO is $1B over 10 years** with source code, dedicated support, and unlimited compute.
+- **The Sovereign Edition TCO is $1B over 10 years offering source code, dedicated support, and unlimited compute.**
 
 # AmaniGPT Licensing Guide
 
