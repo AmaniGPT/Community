@@ -81,7 +81,7 @@ following benefits:
 1. **Influence the roadmap** by working directly with our team to prioritize features relevant to your core needs.
 1. **Ensure successful adoption** by evaluating `AmaniGPT` with the help of our team before you make a full commitment.
 
-For more information, please review our [licensing guide](licensing-guide.md) then contact: `eric@amnigpt.com`.
+For more information, please review our [licensing guide](licensing-guide.md) then contact: `eric@amanigpt.com`.
 
 # Partnerships
 

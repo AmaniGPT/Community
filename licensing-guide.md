@@ -24,11 +24,11 @@ Make sure you have reviewed our [README](README.md) to understand what `AmaniGPT
 
 Review the rest of this licensing guide so you can **make a purchasing decision at your own pace**. 
 
-When you are satisfied that `AmaniGPT` is a good fit and are ready to start the purchasing process, please get in touch
-via: `start@amanigpt.com`
+When you are satisfied that `AmaniGPT` is a good fit and are ready to start the [purchasing process](#purchasing-process),
+please get in touch via: `start@amanigpt.com`
 
 **IMPORTANT**: this guide is provided for **informational purposes only**. Final license terms will be discussed during
-the purchasing process which we always aim to **complete within 30 days or less from first contact.**
+the [purchasing process](#purchasing-process).
 
 # Licensing At A Glance
 
@@ -48,6 +48,50 @@ the purchasing process which we always aim to **complete within 30 days or less 
 - Private and dedicated support is available for the paid editions at 10% of the license fee per year.
 - Customers can pre-order Enterprise, Hyperscale, or Sovereign licenses by paying 10% of the license fee.
 - **The Sovereign Edition TCO is $1B over 10 years offering source code, dedicated support, and unlimited compute.**
+
+# Purchasing Process
+
+The `AmaniGPT` purchasing process is designed with two goals in mind:
+
+1. **Transparency**: everything you need to know is out in the open. No hidden fees, no fine print, no nasty surprises.
+1. **Speed**: the entire process, from first contact to signed contract, **should be complete in 30 days or less**.
+
+The process works in two phases:
+
+1. **Evaluation:** this is fully self-service and self-paced. No sales calls, no demos, no meetings.
+1. **Adoption:** this is collaborative, done mostly via email, and involves just two scheduled calls.
+
+**TIP:** the Community Edition does not require following the purchasing process since it is free. Just download and
+[start using it](owt-use.md)!
+
+**Phase 1: Evaluation**
+
+1. **Understand the product, benefits, and roadmap** by reviewing our [README](README.md).
+1. **Understand the licensing model and terms** by reviewing this [licensing guide](#amanigpt-licensing-guide).
+1. **Request clarification or more information** by sending an email to `licensing@amanigpt.com`.
+1. **Appoint an internal sponsor** to "run everything up the chain" and obtain preliminary purchase approval.
+1. **Start the purchasing process** by sending an email to `start@amanigpt.com` if you are the internal sponsor.
+
+The email you send as the internal sponsor should contain the following information:
+
+1. Confirmation that all of the above steps have been completed.
+1. Confirmation that preliminary purchase approval has been obtained.
+1. The edition you intend to purchase (Enterprise, Hyperscale, or Sovereign).
+1. Any special conditions or requirements for getting full purchase approval.
+1. An estimate of the expected internal timeline for completing the process.
+
+**Phase 2: Adoption**
+
+1. **Breaking the ice:** we will schedule a short, friendly, non-technical call to put a face to each email address :)
+1. **Finalize contract:** using this guide as a baseline, we will work with legal to draft the final license agreement.
+1. **Sign contract:** we will schedule a final call to review and sign the contract with key stakeholders in attendance.
+1. **Pay pre-order fee:** we will send an invoice for the pre-order fee as agreed, so finance can process the payment.
+1. **Prepare for GA:** we will work with your teams to prioritize pre-agreed features as we finalize `AmaniGPT` for GA.
+1. **Transition to GA:** once `AmaniGPT` is generally available, we will start the maintenance and support relationship.
+
+**TIP:** the purchasing process is less about software and more about philosophical fit. If your organization values
+minimalism, attention to detail, and a no-nonsense approach to business, then we are going to **do legendary things
+together :muscle:**
 
 # AmaniGPT Licensing Guide
 
