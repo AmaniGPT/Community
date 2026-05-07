@@ -82,7 +82,7 @@ The email you send as the internal sponsor should contain the following informat
 
 **Phase 2: Adoption**
 
-1. **Breaking the ice:** we will schedule a short, friendly, non-technical call to put a face to each email address :)
+1. **Breaking the ice:** we will schedule a short, friendly, non-technical call to put a face to each email address :smile:
 1. **Finalize contract:** using this guide as a baseline, we will work with legal to draft the final license agreement.
 1. **Sign contract:** we will schedule a final call to review and sign the contract with key stakeholders in attendance.
 1. **Pay pre-order fee:** we will send an invoice for the pre-order fee as agreed, so finance can process the payment.
