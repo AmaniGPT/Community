@@ -90,7 +90,7 @@ The email you send as the internal sponsor should contain the following informat
 1. **Transition to GA:** once `AmaniGPT` is generally available, we will start the maintenance and support relationship.
 
 **TIP:** the purchasing process is less about software and more about philosophical fit. If your organization values
-minimalism, attention to detail, and a no-nonsense approach to business, then we are going to **do legendary things
+minimalism, attention to detail, and a no-nonsense approach to business, then **we are going to do legendary things
 together :muscle:**
 
 # AmaniGPT Licensing Guide
@@ -99,10 +99,10 @@ together :muscle:**
 
 `AmaniGPT` is an AI engine which allows training and inference on ordinary CPUs. It is offered in four editions:
 
-1. Community Edition.
-1. Enterprise Edition.
-1. Hyperscale Edition.
-1. Sovereign Edition.
+1. [Community Edition](#community-edition)
+1. [Enterprise Edition](#enterprise-edition)
+1. [Hyperscale Edition](#hyperscale-edition)
+1. [Sovereign Edition](#sovereign-edition)
 
 All editions provide access to the same basic functionality. The difference is in the maximum amount of CPU cores that
 can be used, the level of support provided, and availability of source code.
@@ -331,7 +331,10 @@ terms of the license. Delivery of new snapshots requires continued annual mainte
 
 1. Licensees are **NOT permitted to use the source code and or Software to build products or services that compete with
 the Software's core functionality of AI training and inference on ordinary CPUs**. This condition applies regardless of
-whether the competing products or services are intended for internal use or for use by third parties.
+whether the competing products or services are intended for internal use or for use by third parties. It also applies to
+any Application messages, logs, or tooling (including tools for monitoring, debugging, or optimizing training and inference)
+that intentionally or inadvertently expose implementation details that are only knowable through access to the source code,
+whether those details are shared internally beyond named personnel or externally with third parties.
 
 1. Licensees are permitted to **create derivative works of the source code by porting it to other programming languages
 or creating hardware accelerators**. All derivative works are subject to the same terms and conditions as the original
