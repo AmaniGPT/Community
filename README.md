@@ -9,7 +9,7 @@ While it is still early days, we are building an AI engine that:
 1. **Generates answers instantly** so you never have to wait.
 1. **Runs offline** in situations where internet connections are not available or allowed.
 1. **Supports personalization** by allowing you to train existing models on your own code and data.
-1. **Protects your PRIVACY and VALUABLE IP** by keeping all code, data, and conversations on your devices or network.
+1. **Protects your PRIVACY and VALUABLE IP** by keeping all code, data, and messages on your devices or network.
 1. **Gives you complete control** by allowing you to build your own models using your own rules, code, and data.
 1. **Maximizes your productivity by REMOVING TOKEN LIMITS** since everything runs on your own hardware.
 1. **Dramatically REDUCES COSTS** by doing all of the above on ordinary CPUs that you already use today.
