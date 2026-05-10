@@ -259,7 +259,7 @@ most Organizations can still enjoy the benefits of unlimited AI even if they do 
 1. The license is perpetual, non-exclusive, non-transferable and royalty-free, subject to the terms of this agreement.
 1. The license conveys no equity, acquisition, IP transfer, governance/information rights or employment arrangements.
 1. The license is immediately suspended if licensee initiates legal action and remains suspended until case resolution.
-1. The license requires a written commitment to protecting the dignity and value of human life when using the Software.
+1. The license requires a written commitment to [protecting the dignity and value of human life](#human-dignity) when using the Software.
 1. Using any edition of the Software beyond its limits is a violation of your license and may result in legal action.
 
 ## Pre-ordering Terms & Conditions
@@ -340,6 +340,36 @@ whether those details are shared internally beyond named personnel or externally
 or creating hardware accelerators**. All derivative works are subject to the same terms and conditions as the original
 source code unless otherwise mutually agreed-upon in writing (e.g. to allow co-development and commercialization of
 derivative works that add significant value to the broader `AmaniGPT` ecosystem).
+
+## Human Dignity
+
+We require all licensees to commit to using `AmaniGPT` in a manner that **protects the dignity and value of human life**.
+
+To make the concept actionable, we propose (and adopt for our own use) the PIT and PAT tests:
+
+> **PIT (Personal Impact Test)**: would I support this Application if I were directly and equally affected by it?
+>
+> **PAT (Public Accountability Test)**: would I be willing to publicly answer for the consequences of this Application?
+
+The two questions should be asked and answered in the affirmative when approving, funding, endorsing, designing,
+developing, deploying, procuring, or using Applications built with `AmaniGPT`.
+
+The PIT and PAT tests discourage negative uses. Consider the example of a lethal autonomous weapons system:
+
+> **PIT**: would I support the development of lethal autonomous weapons if they could open fire at me without human intervention?
+>
+> **PAT**: would I be willing to publicly answer for the consequences of lethal autonomous weapons that I authorized or supported?
+
+The PIT and PAT tests also encourage positive uses. Consider the example of an autonomous medical triage system:
+
+> **PIT**: would I support the deployment of an autonomous medical triage system if I were a critically ill patient in
+> an understaffed hospital with no access to a doctor?
+>
+> **PAT**: would I be willing to publicly answer for the benefits of an autonomous medical triage system that saved
+> lives which would have otherwise been lost?
+
+Applications that pass both tests with a confident **YES**, are the ones worth building with `AmaniGPT` and we look
+forward to partnering with Organizations that will do truly legendary things for humanity :rocket:
 
 ## Feedback
 
