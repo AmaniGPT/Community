@@ -68,7 +68,7 @@ generally available (expected by `November 2026`), it will be offered under the 
 1. **Hyperscale Edition**: paid for use on `unlimited CPU cores`. Includes priority support and maintenance.
 1. **Sovereign Edition**: paid for use on `unlimited CPU cores`. Includes source code for maximum control and security.
 
-For more information and up-to-date details, please see our [licensing guide](licensing-guide.md).
+For more information and up-to-date details, please review our [licensing guide](licensing-guide.md).
 
 # Pre-orders
 
@@ -81,7 +81,7 @@ following benefits:
 1. **Influence the roadmap** by working directly with our team to prioritize features relevant to your core needs.
 1. **Ensure successful adoption** by evaluating `AmaniGPT` with the help of our team before you make a full commitment.
 
-For more information, please review our [licensing guide](licensing-guide.md) then contact: `eric@amanigpt.com`.
+For more information, please review our [licensing guide](licensing-guide.md).
 
 # Partnerships
 
@@ -95,15 +95,15 @@ following areas:
 We would especially love to partner with your organization if:
 
 1. You offer a product in any of the areas listed above.
-1. You have pre-ordered a paid license for `AmaniGPT`.
+1. You have pre-ordered a Sovereign Edition [license](licensing-guide.md) for `AmaniGPT`.
 1. You are enhancing products we already use ourselves.
 
-As a qualified partner, **you will receive our full support and close collaboration**, since your success directly
+As a Sovereign Partner, **you will receive our full support and close collaboration**, since your success directly
 benefits our own work and the broader community.
 
 # Roadmap
 
-`AmaniGPT` is part of our vision to **make AI more sustainable and useful** over the next 10 years, in multiple phases:
+`AmaniGPT` is part of our **vision to make AI more sustainable and useful over the next 10 years**, in multiple phases:
 
 - **Phase 0 (Preview)**: we are here now. The goal is to finalize and validate CPU-only AI as a more reliable and
   sustainable alternative to GPU-heavy AI.
@@ -194,8 +194,8 @@ teams, and organizations. All trademarks and names are the property of their res
 # Contact
 
 Eric Mutta (the creator of `AmaniGPT`) is a tech entrepreneur and software engineer with 27 years of experience. He
-has a passion for tackling seemingly impossible problems and is assembling a team to prepare `AmaniGPT` for general
-availability by `November 2026`.
+has a passion for tackling seemingly impossible problems and is assembling a tactical team to prepare `AmaniGPT` for
+general availability by `November 2026`.
 
 For media, licensing, and pre-order inquiries, please contact: **eric@amanigpt.com**
 
