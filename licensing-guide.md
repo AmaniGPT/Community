@@ -232,6 +232,7 @@ The Sovereign Edition requires a paid license. The target audience includes but 
 - National and governmental institutions requiring **full autonomy, privacy and control** over their AI infrastructure.
 - Organizations that want deep **integration into mission-critical products and services** with reduced vendor dependencies.
 - Organizations with **non-negotiable security and safety requirements** where source access allows auditing and verification.
+- Organizations that need source access to build **hardware accelerators** for [Embodied Symbiotes](README.md#roadmap).
 
 The Sovereign Edition **includes source code access** as described in the `Source Access Terms & Conditions` section.
 
