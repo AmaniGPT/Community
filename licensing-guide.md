@@ -333,9 +333,10 @@ terms of the license. Delivery of new snapshots requires continued annual mainte
 1. Licensees are **NOT permitted to use the source code and or Software to build products or services that compete with
 the Software's core functionality of AI training and inference on ordinary CPUs**. This condition applies regardless of
 whether the competing products or services are intended for internal use or for use by third parties. It also applies to
-any Application messages, logs, or tooling (including tools for monitoring, debugging, or optimizing training and inference)
-that intentionally or inadvertently expose implementation details that are only knowable through access to the source code,
-whether those details are shared internally beyond named personnel or externally with third parties.
+disclosures of any kind (including research papers, blog posts, talks, interviews, and discussions), as well as Application
+messages, logs, or tooling (including tools for monitoring, debugging, or optimizing training and inference) that
+intentionally or inadvertently expose implementation details that can only be known or derived through access to the
+source code, whether those details are shared internally beyond named personnel or externally with third parties.
 
 1. Licensees are permitted to **create derivative works of the source code by porting it to other programming languages
 or creating hardware accelerators**. All derivative works are subject to the same terms and conditions as the original
