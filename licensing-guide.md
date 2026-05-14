@@ -80,6 +80,10 @@ The email you send as the internal sponsor should contain the following informat
 1. Any special conditions or requirements for getting full purchase approval.
 1. An estimate of the expected internal timeline for completing the process.
 
+**IMPORTANT:** while we appreciate (and respect) senior executives with a hands-on approach who may want to reach out
+directly, we still require the above steps to be followed to ensure a successful purchasing process. Protocols are
+important because [the stakes are high](README.md#thriving). Thank you for your understanding and support :pray:
+
 **Phase 2: Adoption**
 
 1. **Breaking the ice:** we will schedule a short, friendly, non-technical call to put a face to each email address :smile:
@@ -258,6 +262,7 @@ most Organizations can still enjoy the benefits of unlimited AI even if they do 
 1. Multiple Enterprise licenses can be purchased as needed, each granting another 128 CPU cores of Controlled Compute.
 1. There is no need for multiple licenses under editions that permit unlimited Controlled Compute.
 1. The license is perpetual, non-exclusive, non-transferable and royalty-free, subject to the terms of this agreement.
+1. The license is specific to a given edition. A new license must be purchased at full price to change editions.
 1. The license conveys no equity, acquisition, IP transfer, governance/information rights or employment arrangements.
 1. The license is immediately suspended if licensee initiates legal action and remains suspended until case resolution.
 1. The license requires a written commitment to [protecting the dignity and value of human life](#human-dignity) when using the Software.
