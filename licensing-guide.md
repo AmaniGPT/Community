@@ -32,7 +32,7 @@ the [purchasing process](#purchasing-process).
 
 # Licensing At A Glance
 
-`AmaniGPT` gives you control over the rising and unsustainable costs of AI. It is licensed based on current AI spend:
+`AmaniGPT` gives you control over the rising and unsustainable costs of AI. It is **licensed based on current AI spend**:
 
 | AI Spend (USD)   | Best Edition | Price (USD)    | Max CPU Cores | Max Tokens | Source Code Access |
 | -----------------| ------------ | ---------------| ------------- | ---------- | ------------------ |
@@ -234,7 +234,7 @@ The Hyperscale Edition allows Organizations to:
 The Sovereign Edition requires a paid license. The target audience includes but is not limited to:
 
 - National and governmental institutions requiring **full autonomy, privacy and control** over their AI infrastructure.
-- Organizations that want deep **integration into mission-critical products and services** with reduced vendor dependencies.
+- Organizations that want **deep integration into mission-critical products and services** with reduced vendor dependencies.
 - Organizations with **non-negotiable security and safety requirements** where source access allows auditing and verification.
 - Organizations that need source access to build **hardware accelerators** for [Embodied Symbiotes](README.md#roadmap).
 
@@ -300,7 +300,7 @@ Enterprise, Hyperscale, and Sovereign Editions:
    - Hyperscale Edition: **5 year commitment (i.e. $50M total over 5 years)**.
    - Sovereign Edition: **10 year commitment (i.e. $500M total over 10 years)**.
 1. Maintenance and support does not cover issues caused by modifications to the source code for the Sovereign Edition.
-1. If payment lapses for more than 6 months, a new license must be purchased at the current price to resume support.
+1. If payment lapses for more than 6 months, a new license must be purchased at the prevailing price to resume support.
 
 **NOTE:** for all editions, maintenance and support is conditional on continued compliance with the terms of the license.
 
@@ -361,13 +361,13 @@ To make the concept actionable, we propose (and adopt for our own use) the PIT a
 The two questions should be asked and answered in the affirmative when approving, funding, endorsing, designing,
 developing, deploying, procuring, or using Applications built with `AmaniGPT`.
 
-The PIT and PAT tests discourage negative uses. Consider the example of a lethal autonomous weapons system:
+The PIT and PAT tests **discourage negative uses**. Consider the example of a lethal autonomous weapons system:
 
 > **PIT**: would I support the development of lethal autonomous weapons if they could open fire at me without human intervention?
 >
 > **PAT**: would I be willing to publicly answer for the consequences of lethal autonomous weapons that I authorized or supported?
 
-The PIT and PAT tests also encourage positive uses. Consider the example of an autonomous medical triage system:
+The PIT and PAT tests also **encourage positive uses**. Consider the example of an autonomous medical triage system:
 
 > **PIT**: would I support the deployment of an autonomous medical triage system if I were a critically ill patient in
 > an understaffed hospital with no access to a doctor?

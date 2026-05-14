@@ -120,14 +120,14 @@ benefits our own work and the broader community.
   without costs spiraling out of control.
 
 - **Phase 3 (Symbiotes)**: expected by `2028-2030`. With the cost of training and inference close to zero, we can build
-  hyper-personalized agents (called symbiotes) that are paired with individuals for life, **continuously learning** and
-  evolving with them. If you are a professional (e.g. a surgeon, engineer or architect), your symbiote learns from you
-  until it becomes a professional in the same field and can assist you in your life's work.
+  **hyper-personalized agents (called symbiotes)** that are paired with individuals for life, **continuously learning**
+  and evolving with them. If you are a professional (e.g. a surgeon, engineer or architect), your symbiote learns from
+  you until it becomes a professional in the same field and can assist you in your life's work.
 
 - **Phase 4 (Embodied Symbiotes)**: expected by `2030-2036`. To cover the full spectrum of human knowledge and skills,
   symbiotes will gain physical embodiments outside phones and computers, such as humanoid robots, self-driving cars,
-  drones, submarines, etc. **Your embodied symbiote allows you to be in multiple places at once** and carry out physical
-  tasks (e.g. a mechanic symbiote can repair multiple cars at the same time under the supervision of its human partner).
+  drones, submarines, etc. **Your embodied symbiote allows you to be in multiple places at once and carry out physical
+  tasks** (e.g. a mechanic symbiote can repair multiple cars at the same time under the supervision of its human partner).
 
 Some of the features required to achieve the above vision already exist in prototype form within `AmaniGPT` today (e.g.
 it is natively multimodal which should be useful when building symbiotes that can see, hear, speak, and move).
@@ -138,7 +138,7 @@ help us build AI that makes our daily lives more productive, enjoyable, and mean
 
 # Thriving
 
-The greatest existential threat facing humanity has been the same since day one: **unsustainable growth**. 
+The greatest **existential threat** facing humanity has been the same since day one: **unsustainable growth**. 
 
 We as a species are growing faster than our environment, infrastructure, schools, hospitals, and courts can keep up
 with. If 100 people are born today, they all immediately need food, healthcare, and education, but it takes 20+ years
