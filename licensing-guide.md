@@ -34,12 +34,12 @@ the [purchasing process](#purchasing-process).
 
 `AmaniGPT` gives you control over the rising and unsustainable costs of AI. It is **licensed based on current AI spend**:
 
-| AI Spend (USD)   | Best Edition | Price (USD)    | Max CPU Cores | Max Tokens | Source Code Access |
-| -----------------| ------------ | ---------------| ------------- | ---------- | ------------------ |
-| Up to $200/month | Community    | Free           | 32            | Unlimited  | No                 |
-| Up to $10M/year  | Enterprise   | $1M lifetime   | 128+          | Unlimited  | No                 |
-| Up to $50B/year  | Hyperscale   | $100M lifetime | Unlimited     | Unlimited  | No                 |
-| Up to $200B/year | Sovereign    | $500M lifetime | Unlimited     | Unlimited  | Yes                |
+| AI Spend (USD)   | Best Edition | Price (USD)    | Max CPU Cores | Max Tokens | Licensing Shield | Source Code Access |
+| -----------------| ------------ | ---------------| ------------- | ---------- | ---------------- | ------------------ |
+| Up to $200/month | Community    | Free           | 32            | Unlimited  | No               | No                 |
+| Up to $10M/year  | Enterprise   | $1M lifetime   | 128+          | Unlimited  | No               | No                 |
+| Up to $50B/year  | Hyperscale   | $100M lifetime | Unlimited     | Unlimited  | Available        | No                 |
+| Up to $200B/year | Sovereign    | $500M lifetime | Unlimited     | Unlimited  | Available        | Yes                |
 
 **NOTES:**
 - **`AmaniGPT` runs on your own hardware using ordinary CPUs so there are no token limits.**
@@ -47,6 +47,7 @@ the [purchasing process](#purchasing-process).
 - Best-effort support is provided free for the Community Edition using public channels and documentation.
 - Private and dedicated support is available for the paid editions at 10% of the license fee per year.
 - Customers can pre-order Enterprise, Hyperscale, or Sovereign licenses by paying 10% of the license fee.
+- The [Licensing Shield](#licensing-shield-terms--conditions) is a premium add-on that simplifies application distribution.
 - **The Sovereign Edition TCO is $1B over 10 years offering source code, dedicated support, and unlimited compute.**
 
 # Purchasing Process
@@ -147,7 +148,9 @@ meaning as their singular forms for the purposes of this licensing guide.
 ## Licensing Responsibility
 
 Each Organization is independently responsible for obtaining an appropriate paid license if it develops and or operates
-any Application on Controlled Compute exceeding the limits of the Community Edition. Example scenarios:
+any Application on Controlled Compute exceeding the limits of the Community Edition. This requirement reflects the fact
+that the Software adds value to Applications both during development (training) and operation (inference), with the cost
+savings applying to both phases. Example scenarios:
 
 | Scenario       | Developer creates Application on | User runs Application on | Who needs a paid license |
 |----------------|----------------------------------|--------------------------|--------------------------|
@@ -156,7 +159,10 @@ any Application on Controlled Compute exceeding the limits of the Community Edit
 | Big To Big     | A 500-core cluster               | A 500-core cluster       | Both developer and user  |
 | Small To Small | A laptop (8 cores)               | A laptop/phone (8 cores) | Neither (free for both)  |
 
-**NOTE:** the words **Developer** and **User** are for illustration and fall under the definition of **Organization**.
+**NOTE 1:** the words **Developer** and **User** are for illustration and fall under the definition of **Organization**.
+
+**NOTE 2:** the [Licensing Shield](#licensing-shield-terms--conditions) premium add-on can simplify application
+distribution for the `Big To Big` scenario.
 
 ---
 
@@ -214,6 +220,9 @@ The Hyperscale Edition requires a paid license. The target audience includes but
 - Organizations that want to integrate unlimited AI into **hyperscale online services** that run on millions of CPU cores.
 - Organizations that want to integrate unlimited AI into **hardware ecosystems with millions to billions of CPU cores**.
 
+The Hyperscale Edition **supports the Licensing Shield** as described in the
+[Licensing Shield Terms & Conditions](#licensing-shield-terms--conditions) section.
+
 The Hyperscale Edition permits development and operation of Applications on **Unlimited Controlled Compute.**
 
 The Hyperscale Edition is offered for a **one-time license fee of USD $100M (one hundred million USD).**
@@ -237,8 +246,13 @@ The Sovereign Edition requires a paid license. The target audience includes but 
 - Organizations that want **deep integration into mission-critical products and services** with reduced vendor dependencies.
 - Organizations with **non-negotiable security and safety requirements** where source access allows auditing and verification.
 - Organizations that need source access to build **hardware accelerators** for [Embodied Symbiotes](README.md#roadmap).
+- Organizations that want a strong sense of ownership without the complexity and antitrust concerns of a full acquisition.
 
-The Sovereign Edition **includes source code access** as described in the `Source Access Terms & Conditions` section.
+The Sovereign Edition **includes source code access** as described in the
+[Source Access Terms & Conditions](#source-access-terms--conditions) section.
+
+The Sovereign Edition **supports the Licensing Shield** as described in the
+[Licensing Shield Terms & Conditions](#licensing-shield-terms--conditions) section.
 
 The Sovereign Edition permits development and operation of Applications on **Unlimited Controlled Compute.**
 
@@ -247,9 +261,8 @@ The Sovereign Edition is offered for a **one-time license fee of USD $500M (five
 Annual maintenance and support is available at **10% of the license fee per year (i.e. $50M/year).**
 
 **IMPORTANT:** due to the sensitive nature of source code access and the long-term strategic relationship required for
-the Sovereign Edition, **the number of licenses issued will be limited and granted on a case-by-case basis**. There are
-no eligibility requirements for the Hyperscale Edition beyond the ability to pay the license and maintenance fees, so
-most Organizations can still enjoy the benefits of unlimited AI even if they do not qualify for the Sovereign Edition.
+the Sovereign Edition, **the number of licenses issued will be limited and granted on a case-by-case basis**. Organizations
+that don't qualify for the Sovereign Edition can still enjoy the benefits of unlimited AI through the Hyperscale Edition.
 
 ---
 
@@ -267,6 +280,7 @@ most Organizations can still enjoy the benefits of unlimited AI even if they do 
 1. The license is immediately suspended if licensee initiates legal action and remains suspended until case resolution.
 1. The license requires a written commitment to [protecting the dignity and value of human life](#human-dignity) when using the Software.
 1. Using any edition of the Software beyond its limits is a violation of your license and may result in legal action.
+1. Licensees cannot build Applications whose sole or primary functionality enables AI training and inference on ordinary CPUs.
 
 ## Pre-ordering Terms & Conditions
 
@@ -302,7 +316,9 @@ Enterprise, Hyperscale, and Sovereign Editions:
 1. Maintenance and support does not cover issues caused by modifications to the source code for the Sovereign Edition.
 1. If payment lapses for more than 6 months, a new license must be purchased at the prevailing price to resume support.
 
-**NOTE:** for all editions, maintenance and support is conditional on continued compliance with the terms of the license.
+**NOTE 1:** the annual maintenance fee is higher with the [Licensing Shield](#licensing-shield-terms--conditions) add-on.
+
+**NOTE 2:** for all editions, maintenance and support is conditional on continued compliance with the terms of the license.
 
 ## Source Access Terms & Conditions
 
@@ -335,18 +351,45 @@ The **first source code snapshot will be provided upon GA** and after full payme
 1. Licensees have **perpetual rights to source snapshots already received**, provided they remain in compliance with the
 terms of the license. Delivery of new snapshots requires continued annual maintenance and support payments. 
 
-1. Licensees are **NOT permitted to use the source code and or Software to build products or services that compete with
-the Software's core functionality of AI training and inference on ordinary CPUs**. This condition applies regardless of
-whether the competing products or services are intended for internal use or for use by third parties. It also applies to
-disclosures of any kind (including research papers, blog posts, talks, interviews, and discussions), as well as Application
-messages, logs, or tooling (including tools for monitoring, debugging, or optimizing training and inference) that
-intentionally or inadvertently expose implementation details that can only be known or derived through access to the
-source code, whether those details are shared internally beyond named personnel or externally with third parties.
+1. Licensees are **NOT permitted to use the source code to build products or services that compete with the Software's
+core functionality of AI training and inference on ordinary CPUs**. This condition applies regardless of whether the
+competing products or services are intended for internal use or for use by third parties. It also applies to disclosures
+of any kind (including research papers, blog posts, talks, interviews, and discussions), as well as Application messages,
+logs, or tooling (including tools for monitoring, debugging, or optimizing training and inference) that intentionally or
+inadvertently expose implementation details that can only be known or derived through access to the source code, whether
+those details are shared internally beyond named personnel or externally with third parties.
 
 1. Licensees are permitted to **create derivative works of the source code by porting it to other programming languages
 or creating hardware accelerators**. All derivative works are subject to the same terms and conditions as the original
 source code unless otherwise mutually agreed-upon in writing (e.g. to allow co-development and commercialization of
 derivative works that add significant value to the broader `AmaniGPT` ecosystem).
+
+## Licensing Shield Terms & Conditions
+
+1. The `Licensing Shield` is a premium add-on that simplifies Application distribution for the Hyperscale and Sovereign
+Editions. It allows other Organizations to run your Applications on Unlimited Controlled Compute without obtaining a
+separate license as required by the [Licensing Responsibility](#licensing-responsibility) section.
+
+1. The `Licensing Shield` is specifically designed to simplify distribution of Applications such as operating systems,
+office productivity suites, and similar products that may be purchased by large Organizations on behalf of their employees,
+contractors, or similar users relying on the target Organization's Controlled Compute. It gives licensee Organizations the
+confidence to deeply integrate `AmaniGPT` into their products and services without worrying about the licensing implications
+for their enterprise customers.
+
+1. The `Licensing Shield` is completely optional. Organizations that run your Applications on Controlled Compute not
+exceeding the limits of the Community Edition can already do so without a separate license. If you choose NOT to purchase
+the `Licensing Shield`, then your customers will be responsible for obtaining their own licenses if they run your
+Applications on Controlled Compute exceeding the limits of the Community Edition.
+
+1. For simplicity, the `Licensing Shield` is implemented as part of the annual maintenance and support agreement for the
+respective edition (subject to the [Maintenance Terms & Conditions](#maintenance-terms--conditions)) but with the fee
+adjusted to 20% of the license fee per year instead of the standard 10%. For example, the annual fee for the Hyperscale
+Edition with the `Licensing Shield` would be $20M/year instead of $10M/year.
+
+1. To prevent customer disruption, the `Licensing Shield` is perpetual and applies to all versions of your Applications
+that are released while the `Licensing Shield` is active as part of your annual maintenance and support agreement. The
+`Licensing Shield` does not apply to new versions of your Applications that are released while your annual maintenance
+and support agreement is not active.
 
 ## Human Dignity
 
