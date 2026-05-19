@@ -246,7 +246,7 @@ The Sovereign Edition requires a paid license. The target audience includes but 
 - Organizations that want **deep integration into mission-critical products and services** with reduced vendor dependencies.
 - Organizations with **non-negotiable security and safety requirements** where source access allows auditing and verification.
 - Organizations that need source access to build **hardware accelerators** for [Embodied Symbiotes](README.md#roadmap).
-- Organizations that want a strong sense of ownership without the complexity and antitrust concerns of a full acquisition.
+- Organizations that want a strong sense of **ownership without the complexity and antitrust concerns** of a full acquisition.
 
 The Sovereign Edition **includes source code access** as described in the
 [Source Access Terms & Conditions](#source-access-terms--conditions) section.
