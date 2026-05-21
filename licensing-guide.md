@@ -109,8 +109,7 @@ together :muscle:**
 1. [Hyperscale Edition](#hyperscale-edition)
 1. [Sovereign Edition](#sovereign-edition)
 
-All editions provide access to the same basic functionality. The difference is in the maximum amount of CPU cores that
-can be used, the level of support provided, and availability of source code.
+All editions provide access to the same basic functionality. The differences are described in each edition's section.
 
 ---
 
@@ -147,10 +146,11 @@ meaning as their singular forms for the purposes of this licensing guide.
 
 ## Licensing Responsibility
 
-Each Organization is independently responsible for obtaining an appropriate paid license if it develops and or operates
-any Application on Controlled Compute exceeding the limits of the Community Edition. This requirement reflects the fact
-that the Software adds value to Applications both during development (training) and operation (inference), with the cost
-savings applying to both phases. Example scenarios:
+Each Organization is **independently responsible for obtaining an appropriate paid license** if it develops and or operates
+any Application on Controlled Compute exceeding the limits of the Community Edition.
+
+This requirement reflects the fact that **the Software adds value to Applications both during development (training) and
+operation (inference)**, with the cost savings applying to both phases. Example scenarios:
 
 | Scenario       | Developer creates Application on | User runs Application on | Who needs a paid license |
 |----------------|----------------------------------|--------------------------|--------------------------|
@@ -192,10 +192,10 @@ paid license.
 
 ### Enterprise Edition
 
-The Enterprise Edition requires a paid license. The target audience is Organizations that:
+The Enterprise Edition requires a paid license. The target audience includes but is not limited to Organizations that:
 
-- Want to deploy at a significant scale exceeding Community Edition limits.
-- Require commercial support and on-going maintenance for smooth production use.
+- Want to deploy at a **significant scale** exceeding Community Edition limits.
+- Require **commercial support** and on-going maintenance for smooth production use.
 - Have **compliance, privacy, and security requirements** that demand customized on-premises AI models.
 
 The Enterprise Edition permits development and operation of Applications on up to **128 CPU cores of Controlled Compute.**
@@ -419,7 +419,7 @@ The PIT and PAT tests also **encourage positive uses**. Consider the example of 
 > lives which would have otherwise been lost?
 
 Applications that pass both tests with a confident **YES**, are the ones worth building with `AmaniGPT` and we look
-forward to partnering with Organizations that will do truly legendary things for humanity :rocket:
+forward to partnering with Organizations that will **do truly legendary things for humanity :rocket:**
 
 ## Feedback
 

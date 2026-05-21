@@ -8,7 +8,7 @@ While it is still early days, we are building an AI engine that:
 
 1. **Generates answers instantly** so you never have to wait.
 1. **Runs offline** in situations where internet connections are not available or allowed.
-1. **Supports personalization** by allowing you to train existing models on your own code and data.
+1. **Supports personalization** by allowing you to train prebuilt models on your own code and data.
 1. **Protects your PRIVACY and VALUABLE IP** by keeping all code, data, and messages on your devices or network.
 1. **Gives you COMPLETE CONTROL** by allowing you to build your own models using your own rules, code, and data.
 1. **Maximizes your productivity by REMOVING TOKEN LIMITS** since everything runs on your own hardware.
@@ -66,7 +66,7 @@ generally available (expected by `November 2026`), it will be offered under the 
 1. **Community Edition**: free for both commercial and non-commercial use on up to `32 CPU cores`.
 1. **Enterprise Edition**: paid for use on more than `32 CPU cores`. Includes priority support and maintenance.
 1. **Hyperscale Edition**: paid for use on `unlimited CPU cores`. Includes priority support and maintenance.
-1. **Sovereign Edition**: paid for use on `unlimited CPU cores`. Includes source code for maximum control and security.
+1. **Sovereign Edition**: paid for use on `unlimited CPU cores`. Includes source code for maximum independence.
 
 For more information and up-to-date details, please review our [licensing guide](licensing-guide.md).
 
@@ -105,7 +105,7 @@ benefits our own work and the broader community.
 
 `AmaniGPT` is part of our **vision to make AI more sustainable and useful over the next 10 years**, in multiple phases:
 
-- **Phase 0 (Preview)**: we are here now. The goal is to finalize and validate CPU-only AI as a more reliable and
+- **Phase 0 (Preview)**: we are here now. The goal is to finalize and validate CPU-only AI as a more affordable and
   sustainable alternative to GPU-heavy AI.
 
 - **Phase 1 (General Availability)**: expected by `November 2026`. `AmaniGPT` should offer **fast, offline, unlimited,
