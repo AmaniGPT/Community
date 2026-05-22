@@ -262,7 +262,8 @@ Annual maintenance and support is available at **10% of the license fee per year
 
 **IMPORTANT:** due to the sensitive nature of source code access and the long-term strategic relationship required for
 the Sovereign Edition, **the number of licenses issued will be limited and granted on a case-by-case basis**. Organizations
-that don't qualify for the Sovereign Edition can still enjoy the benefits of unlimited AI through the Hyperscale Edition.
+that don't qualify for the Sovereign Edition can still enjoy the benefits of Unlimited Controlled Compute through the
+Hyperscale Edition.
 
 ---
 
