@@ -37,7 +37,7 @@ the [purchasing process](#purchasing-process).
 | AI Spend (USD)   | Best Edition | Price (USD)    | Max CPU Cores | Max Tokens | Licensing Shield | Source Code Access |
 | -----------------| ------------ | ---------------| ------------- | ---------- | ---------------- | ------------------ |
 | Up to $200/month | Community    | Free           | 32            | Unlimited  | No               | No                 |
-| Up to $10M/year  | Enterprise   | $1M lifetime   | 128+          | Unlimited  | No               | No                 |
+| Up to $50M/year  | Enterprise   | $1M lifetime   | 128+          | Unlimited  | No               | No                 |
 | Up to $50B/year  | Hyperscale   | $100M lifetime | Unlimited     | Unlimited  | Available        | No                 |
 | Up to $200B/year | Sovereign    | $500M lifetime | Unlimited     | Unlimited  | Available        | Yes                |
 
