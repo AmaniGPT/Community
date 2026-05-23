@@ -217,11 +217,11 @@ Annual maintenance and support is available at **10% of the license fee per year
 
 The Hyperscale Edition requires a paid license. The target audience includes but is not limited to:
 
-- Organizations that want to integrate unlimited AI into **hyperscale online services** that run on millions of CPU cores.
+- Organizations that want to integrate unlimited AI into **hyperscale online services that run on millions of CPU cores**.
 - Organizations that want to integrate unlimited AI into **hardware ecosystems with millions to billions of CPU cores**.
 
 The Hyperscale Edition **supports the Licensing Shield** as described in the
-[Licensing Shield Terms & Conditions](#licensing-shield-terms--conditions) section.
+[Licensing Shield Terms & Conditions](#licensing-shield-terms--conditions).
 
 The Hyperscale Edition permits development and operation of Applications on **Unlimited Controlled Compute.**
 
@@ -249,10 +249,10 @@ The Sovereign Edition requires a paid license. The target audience includes but 
 - Organizations that want a strong sense of **ownership without the complexity and antitrust concerns** of a full acquisition.
 
 The Sovereign Edition **includes source code access** as described in the
-[Source Access Terms & Conditions](#source-access-terms--conditions) section.
+[Source Access Terms & Conditions](#source-access-terms--conditions).
 
 The Sovereign Edition **supports the Licensing Shield** as described in the
-[Licensing Shield Terms & Conditions](#licensing-shield-terms--conditions) section.
+[Licensing Shield Terms & Conditions](#licensing-shield-terms--conditions).
 
 The Sovereign Edition permits development and operation of Applications on **Unlimited Controlled Compute.**
 
@@ -260,10 +260,39 @@ The Sovereign Edition is offered for a **one-time license fee of USD $500M (five
 
 Annual maintenance and support is available at **10% of the license fee per year (i.e. $50M/year).**
 
-**IMPORTANT:** due to the sensitive nature of source code access and the long-term strategic relationship required for
-the Sovereign Edition, **the number of licenses issued will be limited and granted on a case-by-case basis**. Organizations
-that don't qualify for the Sovereign Edition can still enjoy the benefits of Unlimited Controlled Compute through the
-Hyperscale Edition.
+The Sovereign Edition license forms the foundation of a sensitive, long-term strategic partnership. The **number of
+licenses issued will be limited and granted on a case-by-case basis, at our sole discretion and to the fullest extent
+permitted by law**. In the spirit of transparency, our evaluation criteria includes but is not limited to the following:
+
+1. **Relevance:** your Organization offers products and services that are relevant to our [roadmap](README.md#roadmap),
+thus creating a natural basis for collaboration over the 10-year term of the license.
+
+1. **Capability:** your Organization has a strong engineering culture and the technical depth needed to work with
+advanced AI technology. You are willing to push the frontier, you care tremendously about quality, and you have 
+reliable processes for protecting and managing source code containing valuable intellectual property.
+
+1. **Sustainability:** your Organization's overall business is financially stable and likely to remain a going concern
+over the 10-year term of the license, thus ensuring a durable and mutually rewarding partnership.
+
+1. **Governance:** your Organization's structure and policies ensure that major strategic and ethical decisions (including
+those related to AI) are subject to meaningful institutional oversight and cannot be unilaterally overridden by one or two
+individuals.
+
+1. **Philosophy:** your Organization believes (like we do) that AI is a tool for human empowerment and freedom.
+Organizations that push alarmist narratives (_"AI is going to destroy all jobs!"_) or have coercive policies
+(_"All employees must use AI"_) are NOT a good [philosophical fit](README.md#thriving) and will NOT be eligible
+for a Sovereign Edition license.
+
+Taken together, meeting the criteria means: you work in the right space (Relevance), you can actually handle the source
+code (Capability), you'll be around for the full term (Sustainability), you have the right internal controls (Governance),
+and most importantly, we care about the same things (Philosophy).
+
+If your Organization does not immediately qualify, you are encouraged to license the Hyperscale Edition which offers the
+same strategic benefits without the complexity and responsibility of source code access.
+
+**TIP:** for best results, national and governmental institutions are advised to appoint a private sector champion to
+lead the licensing process on their behalf, under whichever Public-Private Partnership mechanism is available in their
+jurisdiction.
 
 ---
 
