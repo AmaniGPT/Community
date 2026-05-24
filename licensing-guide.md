@@ -290,9 +290,9 @@ and most importantly, we care about the same things (Philosophy).
 If your Organization does not immediately qualify, you are encouraged to license the Hyperscale Edition which offers the
 same strategic benefits without the complexity and responsibility of source code access.
 
-**TIP:** for best results, national and governmental institutions are advised to appoint a private sector champion to
-lead the licensing process on their behalf, under whichever Public-Private Partnership mechanism is available in their
-jurisdiction.
+**TIP:** for best results, **national and governmental institutions are advised to appoint a private sector champion**
+to handle the [purchasing process](#purchasing-process) on their behalf (typically under the Public-Private Partnership
+mechanism available in their jurisdiction).
 
 ---
 
