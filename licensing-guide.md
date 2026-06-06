@@ -261,7 +261,7 @@ The Sovereign Edition is offered for a **one-time license fee of USD $500M (five
 Annual maintenance and support is available at **10% of the license fee per year (i.e. $50M/year).**
 
 The Sovereign Edition license forms the foundation of a sensitive, long-term strategic partnership. The **number of
-licenses issued will be limited and granted on a case-by-case basis, at our sole discretion and to the fullest extent
+licenses issued will be limited and granted on a case-by-case basis, at our sole discretion to the fullest extent
 permitted by law**. In the spirit of transparency, our evaluation criteria includes but is not limited to the following:
 
 1. **Relevance:** your Organization offers products and services that are relevant to our [roadmap](README.md#roadmap),
