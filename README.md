@@ -16,7 +16,6 @@ While it is still early days, we are building an AI engine that:
 
 This is the community repo where you can:
 
-1. Read the official guide on [quickly trying out AmaniGPT](owt-use.md) with a prebuilt model on Linux.
 1. Read the official guide on [training your own AmaniGPT model](owt-train.md) from scratch on Linux.
 1. Read the official guide on [licensing AmaniGPT](licensing-guide.md) when it becomes generally available.
 1. Provide feedback and ask questions using [GitHub Issues](https://github.com/AmaniGPT/Community/issues).
