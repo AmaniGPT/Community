@@ -3,7 +3,8 @@
 
 For an overview of the `AmaniGPT` project, please refer to the [README](README.md) page.
 
-This guide will take you through the steps for training an `AmaniGPT` model from scratch using the `OpenWebText` dataset.
+This guide will take you through the steps for training your own `AmaniGPT` model from scratch using the `OpenWebText`
+dataset.
 
 The [OpenWebText dataset](https://zenodo.org/records/3834942) is a collection of web pages extracted from URLs shared on
 Reddit. It is hosted on [Zenodo](https://zenodo.org/) and provides 40 GB of uncompressed text, which can be used to train
@@ -20,7 +21,7 @@ simple Large Language Models (LLMs) similar to OpenAI's [GPT-2 model](https://en
 [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) on Windows). In the future, we plan to provide native
 binaries for all three platforms, including a library version for use with Android and iOS apps.
 
-We use and recommend Debian for all `AmaniGPT` demos, but .NET supports a wide range of popular Linux distributions
+We use and recommend `Debian 12` for all `AmaniGPT` demos, but .NET supports a wide range of popular Linux distributions
 including Ubuntu, Alpine, Fedora, RHEL, and [more](https://learn.microsoft.com/en-us/dotnet/core/install/linux).
 
 **AmaniGPT was built to reduce the cost of AI**. It works just fine on tiny `$5/month` cloud VMs with `1 CPU, 0.5 GB RAM,
@@ -403,7 +404,7 @@ hundreds of thousands of model files on disk) and we want to address this issue 
 In this guide, we installed and configured `AmaniGPT`, trained a small model from scratch using the `OpenWebText`
 dataset, then used it to generate coherent text samples based on prompts. We also discussed some of the limitations
 of the current version and the improvements we are working on for the next preview release. **Most importantly, we did
-all of this on ordinary, inexpensive computer hardware available to anyone without writing a single line of code!**.
+all of this on ordinary, inexpensive computer hardware available to anyone without writing a single line of code!**
 
 While it is still early days for `AmaniGPT`, we are excited about the possibility of making AI more sustainable and useful
 for everyone. To ask questions, share feedback, or stay updated on new releases, send an email to `eric@amanigpt.com`.
