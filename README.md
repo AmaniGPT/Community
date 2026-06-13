@@ -172,29 +172,15 @@ displacement are able to transition into new jobs so they can continue to **thri
 
 # Acknowledgements
 
-- Thanks to Aaron Gokaslan, Vanya Cohen, Ellie Pavlick and Stefanie Tellex at Brown University for putting together the
+Thanks to Aaron Gokaslan, Vanya Cohen, Ellie Pavlick and Stefanie Tellex at Brown University for putting together the
 [OpenWebText](https://zenodo.org/records/3834942) dataset and to [Zenodo](https://zenodo.org/) for hosting it. This
-dataset is used to train `AmaniGPT` models for research and demonstration purposes.
-
-- Thanks to the [SharpCompress](https://github.com/adamhathcock/sharpcompress) project which allows `AmaniGPT` to process
-the XZ compression format used by the OpenWebText dataset.
-
-- Thanks to the [C#](https://github.com/dotnet/csharplang) and [dotnet](https://github.com/dotnet/runtime) teams for
-providing free, open-source **programming tools and libraries that make it possible to build high-performance CPU-only
-AI engines** like `AmaniGPT`.
-
-- Thanks to the mysterious team behind the legendary [Visual Studio](https://learn.microsoft.com/visualstudio/debugger/)
-debugger which makes it possible to "look into the mind" of an `AmaniGPT` model with billions of parameters and make sense
-of how it predicts the next token during inference.
+dataset is used to [train AmaniGPT models](owt-train.md) for research and demonstration purposes.
 
 **NOTE:** `AmaniGPT` is an independent project and is NOT officially affiliated with or endorsed by the above individuals,
-teams, and organizations. All trademarks and names are the property of their respective owners.
+teams, or organizations. All trademarks and names are the property of their respective owners.
 
 # Contact
 
-Eric Mutta (the creator of `AmaniGPT`) is a tech entrepreneur and software engineer with 27 years of experience. He
-has a passion for tackling seemingly impossible problems and is assembling a tactical team to prepare `AmaniGPT` for
-general availability by `November 2026`.
-
-For media, licensing, and pre-order inquiries, please contact: **eric@amanigpt.com**
+Eric Mutta (the creator of `AmaniGPT`) is a tech entrepreneur and software engineer with 27 years of experience. For 
+media, licensing, and pre-order inquiries, please contact: **eric@amanigpt.com**
 

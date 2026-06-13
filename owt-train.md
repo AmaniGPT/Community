@@ -14,15 +14,12 @@ simple Large Language Models (LLMs) similar to OpenAI's [GPT-2 model](https://en
 
 # Prerequisites
 
-`AmaniGPT` is delivered as a `22 MB` self-contained binary executable. It is written in C# and compiled using
-[.NET Native AOT](https://learn.microsoft.com/en-us/dotnet/core/deploying/native-aot/).
+`AmaniGPT` is delivered as a `22 MB` self-contained binary executable. During preview, we will focus on Linux (including
+via [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) on Windows). In the future, we plan to provide native
+binaries for all major platforms, including a library version for use with mobile apps.
 
-.NET supports Windows, Linux, and macOS. During preview, we will focus on Linux (including via
-[WSL](https://learn.microsoft.com/en-us/windows/wsl/install) on Windows). In the future, we plan to provide native
-binaries for all three platforms, including a library version for use with Android and iOS apps.
-
-We use and recommend `Debian 12` for all `AmaniGPT` demos, but .NET supports a wide range of popular Linux distributions
-including Ubuntu, Alpine, Fedora, RHEL, and [more](https://learn.microsoft.com/en-us/dotnet/core/install/linux).
+We use and recommend `Debian 12` for all `AmaniGPT` demos, but you should be able to use a wide range of popular Linux
+distributions including Ubuntu, Alpine, Fedora, and RHEL.
 
 **AmaniGPT was built to reduce the cost of AI**. It works just fine on tiny `$5/month` cloud VMs with `1 CPU, 0.5 GB RAM,
 and 10 GB SSD storage`. However, for better performance, we recommend VMs with at least `2 CPUs, 4 GB RAM, and 80 GB SSD
