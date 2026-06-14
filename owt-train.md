@@ -343,6 +343,68 @@ Since the data comes from Reddit, it is heavy on American news and politics, but
 pages so you will find more variety if you train on more files. During training, you can use the `--exclude-words` parameter
 to exclude files based on certain keywords (run `amani help --about=train-openwebtext | less` for more details).
 
+To get more prompts like the ones above, you should first download the dataset as described in the training section so
+the file can be found at `~/datasets/openwebtext.tar.xz`. Then you can run the following commands to extract and view
+the text files from the first shard of the dataset:
+
+```bash
+# Create a directory for the extracted files.
+mkdir -p ~/datasets/owt-files
+
+# Extract files from the first shard of the OpenWebText dataset.
+tar -xOf ~/datasets/openwebtext.tar.xz --occurrence=1 openwebtext/urlsf_subset00-1000_data.xz | tar -xJf - -C ~/datasets/owt-files
+
+# Count the extracted files (should have 391 files total).
+ls -1 ~/datasets/owt-files | wc -l
+
+# View the content of one of the extracted files (should start with "If you live abroad and are ...").
+cat ~/datasets/owt-files/0999000-4f67df2d0b84dcf65b32cd3ba5fc2d08.txt | less
+```
+
+To use any snippet of text from any of the files as a prompt, you need to train the model on all `391` files using the
+following commands:
+
+```bash
+# Delete the existing model to start fresh.
+amani delete-model --name=owt128 --confirm-name=owt128
+
+# Create a new model.
+amani create-model --name=owt128 --context-window-size=128
+
+# Train the model on all 391 files from the first shard of the OpenWebText dataset.
+amani train-openwebtext --model-name=owt128 --source=$HOME/datasets/openwebtext.tar.xz --max-documents=391
+```
+
+You can then run `amani generate-text --model-name=owt128 --max-tokens=64` again and enter any snippet of text from any
+of the 391 files as a prompt. Below are samples you can try (copy each line separately including the space at the end
+and paste it as a prompt):
+
+```
+If you live abroad and are 
+
+At 1,070 feet, the building is still being touted as the 
+
+Four Cardinal heard their names called at the NFL Draft following the 
+
+Still, at least Johnson took some action. Jones, incredibly, 
+
+In the mid-80s I accumulated about 900 hours as a single 
+
+a list of BEST 7 youngstars (generation 1994 and younger) for 
+
+GOP leaders held their cards close to the vest on 
+
+"Premier Futsal will be a great way to introduce the sport 
+
+A public records request has revealed that 
+
+A defamatory libel is matter published, without lawful 
+```
+
+**NOTE:** if you try the earlier prompts that were used after training on just 100 files, you may get different results
+since the model is now trained on more data and its parameters are different. This also applies to the prompts shown in
+the next section, which were tested using the model trained on just 100 files.
+
 # Limitations
 
 We still need to improve the [tokenizer](https://en.wikipedia.org/wiki/Large_language_model#Tokenization). For example
