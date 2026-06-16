@@ -29,7 +29,6 @@ the only benchmarks we will discuss and optimize for are the following:
 1. Is it [fast enough](https://github.com/AmaniGPT/Community/issues/1) for your use case?
 1. Does it produce accurate outputs without hallucinating?
 1. Does it meet your **compliance, privacy and security requirements**?
-1. Does it allow you to [do legendary shit](https://www.youtube.com/watch?v=FyY0fEO5jVY&t=2611s)?
 
 # Limitations
 

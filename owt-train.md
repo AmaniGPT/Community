@@ -14,9 +14,8 @@ simple Large Language Models (LLMs) similar to OpenAI's [GPT-2 model](https://en
 
 # Prerequisites
 
-`AmaniGPT` is delivered as a `22 MB` self-contained binary executable. During preview, we will focus on Linux (including
-via [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) on Windows). In the future, we plan to provide native
-binaries for all major platforms, including a library version for use with mobile apps.
+`AmaniGPT` is delivered as a `22 MB` self-contained binary executable. During preview, we will focus on Linux. In the
+future, we plan to provide native binaries for all major platforms, including a library version for use with mobile apps.
 
 We use and recommend `Debian 12` for all `AmaniGPT` demos, but you should be able to use a wide range of popular Linux
 distributions including Ubuntu, Alpine, Fedora, and RHEL.
