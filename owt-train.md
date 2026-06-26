@@ -20,13 +20,13 @@ future, we plan to provide native binaries for all major platforms, including a 
 We use and recommend `Debian 12` for all `AmaniGPT` demos, but you should be able to use a wide range of popular Linux
 distributions including Ubuntu, Alpine, Fedora, and RHEL.
 
-**AmaniGPT was built to reduce the cost of AI**. It works just fine on tiny `$5/month` cloud VMs with `1 CPU, 0.5 GB RAM,
-and 10 GB SSD storage`. However, for better performance, we recommend VMs with at least `2 CPUs, 4 GB RAM, and 80 GB SSD
+**AmaniGPT was built to reduce the cost of AI**. It can run on tiny `$5/month` cloud VMs with `1 CPU, 0.5 GB RAM, and 10
+GB SSD storage`. However, for better performance, we recommend VMs with at least `2 CPUs, 4 GB RAM, and 80 GB SSD
 storage` (which costs around `$20/month` on [Vultr](https://www.vultr.com/pricing/#cloud-compute)). `AmaniGPT` will use
 all the CPUs and RAM you throw at it, so if your budget allows, you can save a lot of time by using larger VMs.
 
 > **TIP:** you do NOT need to know anything about programming or machine learning in order to use `AmaniGPT`. It helps
-if you do, but ultimately, you only need to be comfortable using the console/terminal on your computer.
+if you do, but ultimately, you only need to be comfortable using the terminal on your computer.
 
 # Installation
 
@@ -48,7 +48,7 @@ unzip amanigpt-linux-x64-v2026.06.zip && rm amanigpt-linux-x64-v2026.06.zip
 # Make the AmaniGPT binary executable.
 chmod +x amani
 
-# Add AmaniGPT to your PATH for easier access.
+# Add AmaniGPT to your PATH for easier access (skip this if you are just upgrading to the latest version).
 echo "export PATH=\"$HOME/amanigpt:\$PATH\"" >> ~/.bashrc && source ~/.bashrc
 
 # Confirm that AmaniGPT was added to your PATH (should print "/<home-directory>/amanigpt/amani").
@@ -61,7 +61,7 @@ cd ~
 amani version
 ```
 
-Getting stuck? Got questions? Create a [new issue](https://github.com/AmaniGPT/Community/issues) to request help.
+Getting stuck? Got questions? Create a [new issue](https://github.com/AmaniGPT/Community/issues) to request help :+1:
 
 > **TIP:** you can download other versions from the [releases page](https://github.com/AmaniGPT/Community/releases). Be
 sure to update the URLs and file names in the above commands if you choose a different version.
@@ -109,9 +109,9 @@ amani change-settings --name=parameter-cache-max-size-mb --value=2048
 Smaller values work too (e.g. if you are running `AmaniGPT` locally on a laptop with limited RAM), but everything will
 be slower because `AmaniGPT` spends a lot of time moving model parameters in and out of RAM during training and inference.
 
-> **IMPORTANT:** due to cache management overhead, make sure the VM has at least `4x` the amount of RAM as the value you
+> **IMPORTANT:** due to cache management overhead, make sure the VM has at least `3x` the amount of RAM as the value you
 set for `parameter-cache-max-size-mb`. For example, if you set it to `2,048 MB` (i.e. `2 GB`), make sure the VM has at
-least `8 GB` of RAM. We are working to reduce the overhead in future versions.
+least `6 GB` of RAM. We are working to reduce the overhead in future versions.
 
 # Training
 
@@ -132,7 +132,7 @@ You should see output similar to the following:
 ```
 Model created successfully:
             Directory Path: /root/amanigpt/models/owt128
-                  Model ID: e907f4ef-6294-4c96-9030-c35dac11ccd4
+                  Model ID: 88d72e5e-cd89-4300-927e-acb86b755913
                 Model Name: owt128
        Context Window Size: 128 tokens
       Model Format Version: 1.0
@@ -174,44 +174,44 @@ Training in progress (press 's' to stop early).
              Shard Name: openwebtext/urlsf_subset00-1000_data.xz
               File Name: 0999334-f4e2898d8d9b107fcf662d673ca47bf0.txt
               File Text: It s a well-kept secret, but 95% of the climate mo...
-        Vocabulary Size: 15,328 tokens
+        Vocabulary Size: 8,714 tokens
 
        Processed shards: 1
         Processed files: 100
         Processed bytes: 505,908
-       Processed tokens: 105,828
+       Processed tokens: 176,647
          Excluded files: 0
 
-   Parameter Cache Size: 80 MB
+   Parameter Cache Size: 129 MB
       Clean Entry Count: 0
-       Cache Load Count: 15,328
+       Cache Load Count: 8,714
      Cache Unload Count: 0
    Async Flush Progress: 0.00%
        Total Flush Wait: 0d 0h 0m 0s
 
-           Elapsed time: 0d 0h 0m 5s
-      Shards per second: 0.18
-       Files per second: 18
-       Bytes per second: 93,097
-      Tokens per second: 19,474
+           Elapsed time: 0d 0h 0m 11s
+      Shards per second: 0.09
+       Files per second: 9
+       Bytes per second: 43,297
+      Tokens per second: 15,118
 
 Flushing model files: 100.00%
 
-Training completed after 148,551 operations.
+Training completed after 236,840 operations.
 ```
 
 Congratulations! You've just trained your first `AmaniGPT` model from scratch without downloading the 12 GB dataset,
-thinking about hardware drivers, or writing a single line of code :rocket:
+buying new hardware, or writing a single line of code :rocket:
 
 > **TIP:** you can share your output on the [speed leaderboard](https://github.com/AmaniGPT/Community/issues/1) and see
 other people's training speeds too!
 
 To check the size of the trained model, run `du -h ~/amanigpt/models/owt128`. You should see output similar to the
-following (i.e. the model is approximately `117 MB` in size):
+following (i.e. the model is approximately `151 MB` in size):
 
 ```
-117M    /root/amanigpt/models/owt128/5876856EB51E52E0
-117M    /root/amanigpt/models/owt128
+151M    /root/amanigpt/models/owt128/6BA1AE2368A5C224
+151M    /root/amanigpt/models/owt128
 ```
 
 For larger training runs, we recommend downloading the dataset first as follows:
@@ -238,7 +238,7 @@ any location you like and specify the path with the `--source` parameter.
 To generate text with the model you just trained above, run the following command:
 
 ```bash
-amani generate-text --model-name=owt128 --max-tokens=64
+amani generate-text --model-name=owt128 --max-tokens=128
 ```
 
 This will start an interactive text generation session using the `owt128` model. You should see output similar to the
@@ -251,14 +251,14 @@ Loading model from directory:
 
 Model loaded successfully.
 
-               Model ID: c167fab7-be7e-43b8-9b9b-a74b019ae98b
+               Model ID: 88d72e5e-cd89-4300-927e-acb86b755913
              Model Name: owt128
    Model Format Version: 1.0
     Context Window Size: 128 tokens
-        Vocabulary Size: 15,483 tokens
+        Vocabulary Size: 8,784 tokens
           Feature Count: 1
 
-You can now enter prompts to generate text. The model will generate up to 64 tokens.
+You can now enter prompts to generate text. The model will generate up to 128 tokens.
 
 NOTE: this is NOT a chatbot. Text is generated by repeatedly predicting the next token based on your prompt.
 
@@ -266,7 +266,7 @@ NOTE: this is NOT a chatbot. Text is generated by repeatedly predicting the next
 ```
 
 Enter the prompt `He said it was a "tough decision" ` (notice the space at the end) and press `Enter`. You should see
-output similar to the following (**lightly edited for readability in this guide**):
+output similar to the following (**this and other outputs have been lightly edited for readability in this guide**):
 
 ```
 ----- Enter prompt (type 'xxx' to exit) -----
@@ -277,9 +277,9 @@ He said it was a "tough decision" but that he accepted the U.N. offer to evacuat
 the hospital with Canadian security officers, left the site Friday afternoon. The Belgian team returned Saturday morning.
 
 Gijs said the United Nations has agreed to provide security for Saturday night. The team has requested the Belgian
-government to send
+government to send its own troops for the fie
 
-Prediction rate: 110 tokens/second
+Prediction rate: 47 tokens/second
 ```
 
 Enter `The delay postponed a definitive answer to ` (again, notice the space at the end) and press `Enter`:
@@ -293,12 +293,13 @@ The delay postponed a definitive answer to whether Clinton had made a clean swee
 Even if she does not prevail in Missouri, her other victories push her closer to the Democratic presidential nomination
 even as the considerably weakened Sanders vowed to press on with his insurgent campaign.
 
-Clinton won big in Florida, North Carolina and Ohio, while claiming
+Clinton won big in Florida, North Carolina and Ohio, while claiming a narrower victory in Ill
 
-Prediction rate: 128 tokens/second
+Prediction rate: 60 tokens/second
 ```
 
 Enter `see the incredible energy of people who love ` and press `Enter`:
+
 ```
 ----- Enter prompt (type 'xxx' to exit) -----
 see the incredible energy of people who love
@@ -309,8 +310,11 @@ see the incredible energy of people who love this country but know we can do so 
 Some of his die-hard supporters expressed hope that he could still pull out the nomination.
 
 "I still think the revolution is coming," said James Homan, 55, a sound engineer for rock musicians, who has homes in
+Illinois and Arizona.
 
-Prediction rate: 137 tokens/second
+Homan expressed frustration that, as he saw it
+
+Prediction rate: 62 tokens/second
 ```
 
 Enter `You can't listen. It's not what you do. ` and press `Enter`:
@@ -324,7 +328,7 @@ You can't listen. It's not what you do. But the American people have been listen
 And it's a new day in America.
 
 
-Prediction rate: 152 tokens/second
+Prediction rate: 76 tokens/second
 ```
 
 These prompts are cherry-picked directly from the first few files out of the 100 text files that were processed during
@@ -353,7 +357,7 @@ mkdir -p ~/datasets/owt-files
 # Extract files from the first shard of the OpenWebText dataset.
 tar -xOf ~/datasets/openwebtext.tar.xz --occurrence=1 openwebtext/urlsf_subset00-1000_data.xz | tar -xJf - -C ~/datasets/owt-files
 
-# Count the extracted files (should have 391 files total).
+# Count the extracted files (you should see 391 files).
 ls -1 ~/datasets/owt-files | wc -l
 
 # View the content of one of the extracted files (should start with "If you live abroad and are ...").
@@ -374,7 +378,7 @@ amani create-model --name=owt128 --context-window-size=128
 amani train-openwebtext --model-name=owt128 --source=$HOME/datasets/openwebtext.tar.xz --max-documents=391
 ```
 
-You can then run `amani generate-text --model-name=owt128 --max-tokens=64` again and enter any snippet of text from any
+You can then run `amani generate-text --model-name=owt128 --max-tokens=128` again and enter any snippet of text from any
 of the 391 files as a prompt. Below are samples you can try (copy each line separately including the space at the end
 and paste it as a prompt):
 
@@ -400,9 +404,11 @@ A public records request has revealed that
 A defamatory libel is matter published, without lawful 
 ```
 
-**NOTE:** if you try the earlier prompts that were used after training on just 100 files, you may get different results
-since the model is now trained on more data and its parameters are different. This also applies to the prompts shown in
-the next section, which were tested using the model trained on just 100 files.
+**NOTE:** if you try the earlier prompts (or those in the next section below) that were used after training on just 100
+files, you may get different results since the model is now trained on more data and its parameters are different. You
+can get the same output by expanding the prompt to provide more context (e.g. this `He said it was a "tough decision" `
+produces mangled output but expanding it to `He said it was a "tough decision" but that he accepted the U.N. offer to `
+gives the model enough context to reconstruct the original coherent text).
 
 # Limitations
 
@@ -419,18 +425,21 @@ Error: prompt contains out-of-vocabulary tokens. Try again with a different prom
 
 It's easy to assume we are "cheating" by secretly storing the training data and printing it back out during inference,
 but that's not the case. You can confirm this by making small changes to the prompt and observing how the model gets lost
-and produces repetitive text (a classic failure mode for LLMs). For example, enter `He said it was a tough decision `
-(we just removed the quotation marks around "tough decision"):
+and produces random-looking or repetitive text (a classic failure mode for LLMs that haven't been trained on enough data).
+For example, enter `He said it was a tough decision ` (we just removed the quotation marks around "tough decision"):
 
 ```
 ----- Enter prompt (type 'xxx' to exit) -----
 He said it was a tough decision
 
 ----- Prediction Result -----
-He said it was a tough decision to the the the the the the the the the the the the a , the the of the the the the the
-the the the .  , the the the the
+He said it was a tough decision of and that he worse the the "in whey to that tha-they a somt in of a . to cone in the
+they of is for with and cone are to the the 'thea they a , in to 'a 1. thathea . pro1, as theis a . 21-a . to a with it
+is the 1, to ito The 2-then for 1. in to for a with with they in of the The ent to sail than the ’2, 10.
 
-Prediction rate: 55 tokens/second
+'I hav
+
+Prediction rate: 20 tokens/second
 ```
 
 Another example can be seen by mixing snippets from the different examples shown earlier, to make a longer prompt like
@@ -441,21 +450,21 @@ Another example can be seen by mixing snippets from the different examples shown
 The delay to the incredible energy
 
 ----- Prediction Result -----
-The delay to the incredible energy of a who is this the a of the the the the the the the the said the the and to
-. of his '-in the the the that
+The delay to the incredible energy to the the . thithe this to thathe a . to the will , a , . a s havt in and to to -to
+and the conthe
 
-Prediction rate: 74 tokens/second
+. of to the the the the . of that that to thethat to coue a to that . to witthe the the 'a t to 'in to and to the
+e the ion and . to the s that for to thethia , and the e to you to , the 'in the the the the t in at is d and it eto .
+
+of a . witt to 'you tha
+
+Prediction rate: 16 tokens/second
 ```
 
-The model is trying to generalize based on its limited training data and producing valid tokens like `the` and `of`, and
-even short coherent phrases like `of a`, `who is this`, `of the`, `said the`, `and to`, `of his` and `in the`. **Based
-on these observations, we have reason to believe the quality of the generated text will improve significantly as we train
-on more data and increase the context window size**.
-
-**NOTE:** you can train with more files and a larger context window size right now, but due to limitations in the current
-tokenizer, you will end up with a very large vocabulary size (e.g. we observed `400K` tokens after training on just `20K` 
-files from the `OpenWebText` dataset). A larger vocabulary size results in a much larger model (tens of gigabytes with
-hundreds of thousands of model files on disk) and we want to address this issue in the next preview release.
+The model is trying to generalize based on its limited training data and producing valid tokens like `to` and `the`, and
+even short coherent phrases like `to the`, `to the will`, `of that`, `to that`, `and to the`, `to you` and `of a`.
+**Based on these observations, we have reason to believe the quality of the generated text will improve significantly
+when we train on more data and increase the context window size**.
 
 # Conclusion
 
