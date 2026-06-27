@@ -109,9 +109,10 @@ amani change-settings --name=parameter-cache-max-size-mb --value=2048
 Smaller values work too (e.g. if you are running `AmaniGPT` locally on a laptop with limited RAM), but everything will
 be slower because `AmaniGPT` spends a lot of time moving model parameters in and out of RAM during training and inference.
 
-> **IMPORTANT:** due to cache management overhead, make sure the VM has at least `3x` the amount of RAM as the value you
-set for `parameter-cache-max-size-mb`. For example, if you set it to `2,048 MB` (i.e. `2 GB`), make sure the VM has at
-least `6 GB` of RAM. We are working to reduce the overhead in future versions.
+> **IMPORTANT:** due to overhead from other parts of the application, make sure the VM has at least `2x` the amount of
+RAM you set for `parameter-cache-max-size-mb`. For example, if you set it to `2,048 MB` (i.e. `2 GB`), make sure the VM
+has at least `4 GB` of RAM, with `5+ GB` being more ideal in order to leave room for the operating system and any other
+applications running on the VM.
 
 # Training
 
